@@ -1,4 +1,4 @@
-#define SIZE 40000
-#define THREAD 4
-#define OUTER_THREADS 2
-#define INNER_THREADS 2
+#define SIZE 5000
+#define THREAD 24
+#define OUTER_THREADS 24
+#define INNER_THREADS 1

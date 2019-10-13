@@ -320,3 +320,506 @@ Summary
 Running for 4 threads
 Time:0.931021214
 Summary
+Running for 4 threads
+Time:0.934440851
+Summary
+9.191E+05
+9.132E+05
+9.229E+05
+3.564E+06
+3.564E+06
+3.57E+06
+5.584E+07
+5.59E+07
+5.584E+07
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+Running for 4 threads
+Time:1.415720940
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         880   5.584E+07           1           1   55836498 .TAU application
+100.0        2242   5.584E+07           1           2   55835618 int main() C 
+ 89.8   5.013E+07   5.013E+07           1           0   50129994 void classic_vec_matmul() C 
+ 10.2   5.703E+06   5.703E+06           1           0    5703382 void init_array() C 
+RAPL
+----------------------------
+		package-0	: 196.368699J
+		package-0	: 196.397507J
+		package-0	: 196.041612J
+
+
+
+THREAD=24;SIZE=5000;OUTER=1;INNER=24
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+Running for 24 threads
+Time:0.028746843
+Summary
+Running for 24 threads
+Time:0.029015779
+Summary
+Running for 24 threads
+Time:0.027815104
+Summary
+5E+07
+5E+07
+5E+07
+2E+08
+2E+08
+2E+08
+3.2E+09
+3.2E+09
+3.2E+09
+2.71E+07
+2.71E+07
+2.71E+07
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+Running for 24 threads
+Time:0.028852940
+Summary
+Running for 24 threads
+Time:0.029945135
+Summary
+Running for 24 threads
+Time:0.029136896
+Summary
+3.357E+06
+3.353E+06
+3.354E+06
+1.3E+07
+1.299E+07
+1.299E+07
+2.024E+08
+2.023E+08
+2.024E+08
+1.85E+06
+1.852E+06
+1.848E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+Running for 24 threads
+Time:0.029177189
+Summary
+Running for 24 threads
+Time:0.028309107
+Summary
+Running for 24 threads
+Time:0.029340982
+Summary
+2.349E+06
+2.353E+06
+2.361E+06
+9.384E+06
+9.379E+06
+9.383E+06
+1.502E+08
+1.504E+08
+1.501E+08
+2.145E+06
+2.093E+06
+2.117E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+Running for 24 threads
+Time:0.027582884
+Summary
+Running for 24 threads
+Time:0.028855085
+Summary
+Running for 24 threads
+Time:0.028448105
+Summary
+9.191E+05
+9.132E+05
+9.229E+05
+3.564E+06
+3.564E+06
+3.57E+06
+5.584E+07
+5.59E+07
+5.584E+07
+4.444E+05
+4.974E+05
+4.565E+05
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+Running for 24 threads
+Time:0.630668163
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         786   4.565E+05           1           1     456503 .TAU application
+ 99.8        2181   4.557E+05           1           2     455717 int main() C 
+ 71.0   3.239E+05   3.239E+05           1           0     323903 void classic_vec_matmul() C 
+ 28.4   1.296E+05   1.296E+05           1           0     129633 void init_array() C 
+RAPL
+----------------------------
+		package-0	: 9.055274J
+		package-0	: 9.061806J
+		package-0	: 9.364112J
+
+
+
+THREAD=24;SIZE=5000;OUTER=4;INNER=6
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+Running for 24 threads
+Time:0.008311033
+Summary
+Running for 24 threads
+Time:0.008434057
+Summary
+Running for 24 threads
+Time:0.009088039
+Summary
+5E+07
+5E+07
+5E+07
+2E+08
+2E+08
+2E+08
+3.2E+09
+3.2E+09
+3.2E+09
+2.71E+07
+2.71E+07
+2.71E+07
+3.75E+07
+3.75E+07
+3.75E+07
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+Running for 24 threads
+Time:0.008456945
+Summary
+Running for 24 threads
+Time:0.008576870
+Summary
+Running for 24 threads
+Time:0.008403063
+Summary
+3.357E+06
+3.353E+06
+3.354E+06
+1.3E+07
+1.299E+07
+1.299E+07
+2.024E+08
+2.023E+08
+2.024E+08
+1.85E+06
+1.852E+06
+1.848E+06
+2.455E+06
+2.459E+06
+2.455E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+Running for 24 threads
+Time:0.008336067
+Summary
+Running for 24 threads
+Time:0.008408070
+Summary
+Running for 24 threads
+Time:0.008198023
+Summary
+2.349E+06
+2.353E+06
+2.361E+06
+9.384E+06
+9.379E+06
+9.383E+06
+1.502E+08
+1.504E+08
+1.501E+08
+2.145E+06
+2.093E+06
+2.117E+06
+1.953E+06
+1.956E+06
+1.946E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+Running for 24 threads
+Time:0.008483887
+Summary
+Running for 24 threads
+Time:0.008303881
+Summary
+Running for 24 threads
+Time:0.008568048
+Summary
+9.191E+05
+9.132E+05
+9.229E+05
+3.564E+06
+3.564E+06
+3.57E+06
+5.584E+07
+5.59E+07
+5.584E+07
+4.444E+05
+4.974E+05
+4.565E+05
+5.453E+05
+5.47E+05
+5.485E+05
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+Running for 24 threads
+Time:0.057445049
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         759   5.485E+05           1           1     548544 .TAU application
+ 99.9        2062   5.478E+05           1           2     547785 int main() C 
+ 75.5   4.144E+05   4.144E+05           1           0     414375 void classic_vec_matmul() C 
+ 23.9   1.313E+05   1.313E+05           1           0     131348 void init_array() C 
+RAPL
+----------------------------
+		package-0	: 7.787211J
+		package-0	: 7.828410J
+		package-0	: 7.900431J
+
+
+
+THREAD=24;SIZE=5000;OUTER=24;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+Running for 24 threads
+Time:0.003969908
+Summary
+Running for 24 threads
+Time:0.003772974
+Summary
+Running for 24 threads
+Time:0.004057884
+Summary
+5E+07
+5E+07
+5E+07
+2E+08
+2E+08
+2E+08
+3.2E+09
+3.2E+09
+3.2E+09
+2.71E+07
+2.71E+07
+2.71E+07
+3.75E+07
+3.75E+07
+3.75E+07
+2.71E+07
+2.71E+07
+2.71E+07
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+Running for 24 threads
+Time:0.003778934
+Summary
+Running for 24 threads
+Time:0.003616095
+Summary
+Running for 24 threads
+Time:0.003768921
+Summary
+3.357E+06
+3.353E+06
+3.354E+06
+1.3E+07
+1.299E+07
+1.299E+07
+2.024E+08
+2.023E+08
+2.024E+08
+1.85E+06
+1.852E+06
+1.848E+06
+2.455E+06
+2.459E+06
+2.455E+06
+1.715E+06
+1.713E+06
+1.714E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+Running for 24 threads
+Time:0.003865004
+Summary
+Running for 24 threads
+Time:0.003432989
+Summary
+Running for 24 threads
+Time:0.003611088
+Summary
+2.349E+06
+2.353E+06
+2.361E+06
+9.384E+06
+9.379E+06
+9.383E+06
+1.502E+08
+1.504E+08
+1.501E+08
+2.145E+06
+2.093E+06
+2.117E+06
+1.953E+06
+1.956E+06
+1.946E+06
+1.622E+06
+1.622E+06
+1.622E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+Running for 24 threads
+Time:0.004027128
+Summary
+Running for 24 threads
+Time:0.003890991
+Summary
+Running for 24 threads
+Time:0.003774881
+Summary
+9.191E+05
+9.132E+05
+9.229E+05
+3.564E+06
+3.564E+06
+3.57E+06
+5.584E+07
+5.59E+07
+5.584E+07
+4.444E+05
+4.974E+05
+4.565E+05
+5.453E+05
+5.47E+05
+5.485E+05
+2.152E+05
+2.133E+05
+2.101E+05
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+Running for 24 threads
+Time:0.051046133
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         777   2.101E+05           1           1     210117 .TAU application
+ 99.6        2014   2.093E+05           1           2     209340 int main() C 
+ 61.3   1.289E+05   1.289E+05           1           0     128894 void init_array() C 
+ 37.3   7.843E+04   7.843E+04           1           0      78432 void classic_vec_matmul() C 
+RAPL
+----------------------------

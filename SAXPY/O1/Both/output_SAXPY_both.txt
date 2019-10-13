@@ -1,0 +1,19830 @@
+
+
+
+THREAD=4;SIZE=5000;OUTER=2;INNER=2
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccoEbyZL.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.272949J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.209595J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.229064J
+
+
+
+THREAD=4;SIZE=10000;OUTER=2;INNER=2
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccLR1KNL.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.227050J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.142761J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.185730J
+
+
+
+THREAD=4;SIZE=40000;OUTER=2;INNER=2
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccv7ZfCE.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.226928J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.209350J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.205078J
+
+
+
+THREAD=24;SIZE=5000;OUTER=1;INNER=24
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccsx32dp.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.226013J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.228943J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.206542J
+
+
+
+THREAD=24;SIZE=5000;OUTER=4;INNER=6
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccnmkSVc.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.237060J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.151550J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.203308J
+
+
+
+THREAD=24;SIZE=5000;OUTER=24;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccFsERu9.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.203246J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.270019J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.224792J
+
+
+
+THREAD=24;SIZE=10000;OUTER=1;INNER=24
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccqJPttT.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.229004J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.196167J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.186340J
+
+
+
+THREAD=24;SIZE=10000;OUTER=4;INNER=6
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccnYuSeL.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.241882J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.218749J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.213501J
+
+
+
+THREAD=24;SIZE=10000;OUTER=24;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccjNf3iJ.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.194763J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.190124J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.136230J
+
+
+
+THREAD=24;SIZE=40000;OUTER=1;INNER=24
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccMhcRHt.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.192382J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.209778J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.212035J
+
+
+
+THREAD=24;SIZE=40000;OUTER=4;INNER=6
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccNVP9Ti.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.222656J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.213866J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.208495J
+
+
+
+THREAD=24;SIZE=40000;OUTER=24;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccpMcTIh.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.260803J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.229309J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.230407J
+
+
+
+THREAD=48;SIZE=5000;OUTER=1;INNER=48
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/icc2qOdB1.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.218078J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.218017J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.183715J
+
+
+
+THREAD=48;SIZE=5000;OUTER=8;INNER=6
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/icc5V4NmM.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.217285J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.206421J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.204406J
+
+
+
+THREAD=48;SIZE=5000;OUTER=48;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/icc7mXv4H.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.226317J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.272887J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.207031J
+
+
+
+THREAD=48;SIZE=10000;OUTER=1;INNER=48
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccWBPMDw.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.273071J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.165954J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.227600J
+
+
+
+THREAD=48;SIZE=10000;OUTER=8;INNER=6
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/icclr9zan.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.218139J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.195007J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.185425J
+
+
+
+THREAD=48;SIZE=10000;OUTER=48;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccz1ffHj.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.188537J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.225890J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.139037J
+
+
+
+THREAD=48;SIZE=40000;OUTER=1;INNER=48
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccKvt2H7.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.270995J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.210693J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.185180J
+
+
+
+THREAD=48;SIZE=40000;OUTER=8;INNER=6
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccJm7aiR.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.204590J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.236206J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.214233J
+
+
+
+THREAD=48;SIZE=40000;OUTER=48;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/icczywR5Q.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.277954J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.173889J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.218627J
+
+
+
+THREAD=96;SIZE=5000;OUTER=1;INNER=96
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccEiiFFD.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.262756J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.193969J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.160278J
+
+
+
+THREAD=96;SIZE=5000;OUTER=4;INNER=24
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccTvgC9r.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.274841J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.179199J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.216980J
+
+
+
+THREAD=96;SIZE=5000;OUTER=96;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccXAChUj.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.230529J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.204712J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.193481J
+
+
+
+THREAD=96;SIZE=10000;OUTER=1;INNER=96
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccUK06d2.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.276245J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.212524J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.191528J
+
+
+
+THREAD=96;SIZE=10000;OUTER=4;INNER=24
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccHlY59O.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.271850J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.220337J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.206726J
+
+
+
+THREAD=96;SIZE=10000;OUTER=96;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccfOA4gO.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.219726J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.276000J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.220520J
+
+
+
+THREAD=96;SIZE=40000;OUTER=1;INNER=96
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccGQjvYC.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.234680J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.227843J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.170104J
+
+
+
+THREAD=96;SIZE=40000;OUTER=4;INNER=24
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccLMV3Nr.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.219787J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.207275J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.213623J
+
+
+
+THREAD=96;SIZE=40000;OUTER=96;INNER=1
+CONFIG----------
+COMPILE---------------------------------------
+Using optimization O1
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+saxpy_both_simple.o: In function `main':
+saxpy_both_simple.inst.c:(.text+0x8a): undefined reference to `classic_vec_matmul'
+saxpy_both_simple.c(62): warning #266: function "classic_vec_matmul" declared implicitly
+  	classic_vec_matmul();
+  	^
+
+/tmp/iccFgv5fk.o: In function `main':
+saxpy_both_simple.c:(.text+0x51): undefined reference to `classic_vec_matmul'
+make: *** [all] Error 1
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 14: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 30: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 47: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 64: ./matmul: No such file or directory
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+tau_exec: ./matmul: command not found
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.277404J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.207641J
+numactl: execution of `./matmul': No such file or directory
+		package-0	: 0.211853J
