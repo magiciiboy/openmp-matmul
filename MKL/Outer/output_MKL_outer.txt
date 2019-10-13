@@ -1497,3 +1497,4 @@ Time taken = 622.936855 seconds
  Example completed. 
 
 Summary
+slurmstepd: error: *** JOB 4492038 ON c497-114 CANCELLED AT 2019-10-13T12:17:04 DUE TO TIME LIMIT ***
