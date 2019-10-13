@@ -4,19 +4,16 @@ module load tau
 
 export TAU_MAKEFILE=$TAU/Makefile.tau-intelomp-icpc-papi-ompt-pdt-openmp
 export TAU_OPTIONS='-optVerbose'
+export MKL_DYNAMIC=FALSE
 
 THREADS=(4 24 48 96)
 NSIZES=(5000 10000 40000)
-
-OUTER_THREADS_4=(2)
-OUTER_THREADS_24=(1 4 24)
-OUTER_THREADS_48=(1 8 48)
-OUTER_THREADS_96=(1 4 96)
 
 # Remove all previous PAPI file
 rm PAPI_*.txt
 
 for THREAD in ${THREADS[*]}; do
+    export MKL_NUM_THREADS=$THREAD
     for S in ${NSIZES[*]}; do
         OUTER_THREADS_NAME=OUTER_THREADS_${THREAD}
         eval "OUTER_THREADS=(\"\${${OUTER_THREADS_NAME}[@]}\")"
