@@ -1,0 +1,1 @@
+sbatch -p skx-normal -N 1 -n 48 -t 30 -o ./output_SAXPY_O3_both.txt ./run.sh
