@@ -1,2 +1,2 @@
 #define SIZE 40000
-#define THREAD = 4
+#define THREAD 96
