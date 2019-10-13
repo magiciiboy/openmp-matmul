@@ -27,7 +27,7 @@ for THREAD in ${THREADS[*]}; do
             printf "#define SIZE $S\n#define THREAD $THREAD\n#define OUTER_THREADS $OUTER_T\n#define INNER_THREADS $INNER_T" > size_both_loops.h
             echo "COMPILE---------------------------------------"
             echo "Using optimization O3"
-            tau_cc.sh icc -O3 saxpy_both_simple.c -o matmul -qopenmp > compile.out
+            tau_cc.sh -O3 saxpy_both_simple.c -o matmul -qopenmp > compile.out
             echo "PAPI--------------------"
             sh ./papi_event.sh
             echo "SUMMARY-----------------------------------------"
