@@ -13,50 +13,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 4 threads
-Time:0.020325184
+Time:0.020353079
 Summary
 Running for 4 threads
-Time:0.020871162
+Time:0.020814896
 Summary
 Running for 4 threads
-Time:0.020257950
+Time:0.021103144
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -67,53 +31,17 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 4 threads
-Time:0.020448923
+Time:0.020574808
 Summary
 Running for 4 threads
-Time:0.020444870
+Time:0.020527840
 Summary
 Running for 4 threads
-Time:0.021267891
+Time:0.020536900
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -121,53 +49,17 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 4 threads
-Time:0.020462990
+Time:0.021476984
 Summary
 Running for 4 threads
-Time:0.020716906
+Time:0.020956993
 Summary
 Running for 4 threads
-Time:0.020375013
+Time:0.020868063
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
+2.139E+06
+2.136E+06
+2.138E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -175,53 +67,17 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 4 threads
-Time:0.020654917
+Time:0.021008968
 Summary
 Running for 4 threads
-Time:0.020200968
+Time:0.020762205
 Summary
 Running for 4 threads
-Time:0.021083832
+Time:0.021372795
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
+7.113E+05
+7.184E+05
+6.982E+05
 
 ---------------------------------------------------------------------------------------
 
@@ -230,7 +86,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 4 threads
-Time:0.207529068
+Time:0.200864077
 ---------------------------
 Reading Profile files in profile.*
 
@@ -239,13 +95,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         850   6.891E+05           1           1     689080 .TAU application
- 99.9        2071   6.882E+05           1           2     688230 int main() C 
- 81.3   5.603E+05   5.603E+05           1           0     560271 void saxpy() C 
- 18.3   1.259E+05   1.259E+05           1           0     125888 void init_array() C 
+100.0         806   6.982E+05           1           1     698177 .TAU application
+ 99.9        2133   6.974E+05           1           2     697371 int main() C 
+ 81.1   5.665E+05   5.665E+05           1           0     566471 void saxpy() C 
+ 18.4   1.288E+05   1.288E+05           1           0     128767 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 8.565774J
+		package-0	: 7.346356J
+		package-0	: 7.398052J
+		package-0	: 7.424603J
 \n\n\n
 THREAD=4;SIZE=10000
 CONFIG----------
@@ -261,50 +119,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 4 threads
-Time:0.059078932
+Time:0.058785200
 Summary
 Running for 4 threads
-Time:0.059106112
+Time:0.059905052
 Summary
 Running for 4 threads
-Time:0.058763981
+Time:0.060415983
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -318,56 +140,20 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 4 threads
-Time:0.059888124
+Time:0.059480190
 Summary
 Running for 4 threads
-Time:0.059608936
+Time:0.058784962
 Summary
 Running for 4 threads
-Time:0.060178041
+Time:0.060398102
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
+3.402E+07
 
 ---------------------------------------------------------------------------------------
 
@@ -375,56 +161,20 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 4 threads
-Time:0.058255911
+Time:0.058960915
 Summary
 Running for 4 threads
-Time:0.058881044
+Time:0.059957027
 Summary
 Running for 4 threads
-Time:0.059006214
+Time:0.060190916
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -432,56 +182,20 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 4 threads
-Time:0.058678150
+Time:0.058758020
 Summary
 Running for 4 threads
-Time:0.060427904
+Time:0.059422970
 Summary
 Running for 4 threads
-Time:0.060420036
+Time:0.059293032
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -490,7 +204,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 4 threads
-Time:0.420376062
+Time:0.423087120
 ---------------------------
 Reading Profile files in profile.*
 
@@ -499,13 +213,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         813   2.524E+06           1           1    2523892 .TAU application
-100.0        2011   2.523E+06           1           2    2523079 int main() C 
- 84.0    2.12E+06    2.12E+06           1           0    2120004 void saxpy() C 
- 15.9   4.011E+05   4.011E+05           1           0     401064 void init_array() C 
+100.0         855   2.515E+06           1           1    2514789 .TAU application
+100.0        2181   2.514E+06           1           2    2513934 int main() C 
+ 83.6   2.102E+06   2.102E+06           1           0    2102080 void saxpy() C 
+ 16.3   4.097E+05   4.097E+05           1           0     409673 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 16.875079J
+		package-0	: 15.154014J
+		package-0	: 15.159630J
+		package-0	: 14.900718J
 \n\n\n
 THREAD=4;SIZE=40000
 CONFIG----------
@@ -521,50 +237,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 4 threads
-Time:1.969927073
+Time:2.062622070
 Summary
 Running for 4 threads
-Time:1.990085840
+Time:2.013257027
 Summary
 Running for 4 threads
-Time:1.972552061
+Time:1.991986990
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -581,59 +261,23 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 4 threads
-Time:2.006643057
+Time:1.981571913
 Summary
 Running for 4 threads
-Time:1.975301981
+Time:2.154856920
 Summary
 Running for 4 threads
-Time:1.973750114
+Time:1.988656998
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -641,58 +285,22 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 4 threads
-Time:1.980525970
+Time:1.989656925
 Summary
 Running for 4 threads
-Time:1.963690042
+Time:1.987004042
 Summary
 Running for 4 threads
-Time:2.001746178
+Time:1.983251810
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
 
 ---------------------------------------------------------------------------------------
@@ -701,59 +309,23 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 4 threads
-Time:2.079608917
+Time:1.987460136
 Summary
 Running for 4 threads
-Time:2.055109024
+Time:2.011788130
 Summary
 Running for 4 threads
-Time:1.970695972
+Time:1.997284889
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
 
 ---------------------------------------------------------------------------------------
 
@@ -762,7 +334,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 4 threads
-Time:3.516856909
+Time:3.511623859
 ---------------------------
 Reading Profile files in profile.*
 
@@ -771,13 +343,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0        1037   4.765E+07           1           1   47653156 .TAU application
-100.0        2318   4.765E+07           1           2   47652119 int main() C 
- 88.0   4.194E+07   4.194E+07           1           0   41937822 void saxpy() C 
- 12.0   5.712E+06   5.712E+06           1           0    5711979 void init_array() C 
+100.0        1152   4.784E+07           1           1   47835223 .TAU application
+100.0        2323   4.783E+07           1           2   47834071 int main() C 
+ 87.7   4.193E+07   4.193E+07           1           0   41932866 void saxpy() C 
+ 12.3   5.899E+06   5.899E+06           1           0    5898882 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 271.991857J
+		package-0	: 249.433931J
+		package-0	: 249.370455J
+		package-0	: 249.167636J
 \n\n\n
 THREAD=24;SIZE=5000
 CONFIG----------
@@ -793,50 +367,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 24 threads
-Time:0.021213055
+Time:0.021701097
 Summary
 Running for 24 threads
-Time:0.021968842
+Time:0.022073984
 Summary
 Running for 24 threads
-Time:0.021373987
+Time:0.021492004
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -856,62 +394,26 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 24 threads
-Time:0.020708084
+Time:0.021507025
 Summary
 Running for 24 threads
-Time:0.022284031
+Time:0.022927999
 Summary
 Running for 24 threads
-Time:0.021173954
+Time:0.020824909
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -919,62 +421,26 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 24 threads
-Time:0.021368027
+Time:0.020889044
 Summary
 Running for 24 threads
-Time:0.020811081
+Time:0.021128178
 Summary
 Running for 24 threads
-Time:0.020796061
+Time:0.020463943
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
+1.892E+06
+1.875E+06
+1.881E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -982,62 +448,26 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 24 threads
-Time:0.020661831
+Time:0.022073984
 Summary
 Running for 24 threads
-Time:0.020972013
+Time:0.021605968
 Summary
 Running for 24 threads
-Time:0.020684004
+Time:0.022012949
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
 
 ---------------------------------------------------------------------------------------
 
@@ -1046,7 +476,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 24 threads
-Time:0.588030100
+Time:0.586540937
 ---------------------------
 Reading Profile files in profile.*
 
@@ -1055,13 +485,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         779   3.609E+05           1           1     360935 .TAU application
- 99.8        1964   3.602E+05           1           2     360156 int main() C 
- 61.6   2.225E+05   2.225E+05           1           0     222489 void saxpy() C 
- 37.6   1.357E+05   1.357E+05           1           0     135703 void init_array() C 
+100.0         763   3.641E+05           1           1     364115 .TAU application
+ 99.8        2163   3.634E+05           1           2     363352 int main() C 
+ 61.6   2.243E+05   2.243E+05           1           0     224324 void saxpy() C 
+ 37.6   1.369E+05   1.369E+05           1           0     136865 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 8.763833J
+		package-0	: 7.750713J
+		package-0	: 8.003092J
+		package-0	: 7.969767J
 \n\n\n
 THREAD=24;SIZE=10000
 CONFIG----------
@@ -1077,50 +509,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 24 threads
-Time:0.050036907
+Time:0.051671982
 Summary
 Running for 24 threads
-Time:0.051622152
+Time:0.048312902
 Summary
 Running for 24 threads
-Time:0.048405886
+Time:0.051507950
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -1143,65 +539,29 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 24 threads
-Time:0.047544003
+Time:0.053664923
 Summary
 Running for 24 threads
-Time:0.050051928
+Time:0.050475121
 Summary
 Running for 24 threads
-Time:0.049988031
+Time:0.052228928
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -1209,65 +569,29 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 24 threads
-Time:0.048660040
+Time:0.049664974
 Summary
 Running for 24 threads
-Time:0.048290014
+Time:0.047019958
 Summary
 Running for 24 threads
-Time:0.046692848
+Time:0.051810026
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
+1.892E+06
+1.875E+06
+1.881E+06
+7.484E+06
+7.402E+06
+7.436E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -1275,65 +599,29 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 24 threads
-Time:0.046700001
+Time:0.047089815
 Summary
 Running for 24 threads
-Time:0.052084208
+Time:0.046391964
 Summary
 Running for 24 threads
-Time:0.050004005
+Time:0.047069073
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -1342,7 +630,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 24 threads
-Time:1.173307896
+Time:1.162795067
 ---------------------------
 Reading Profile files in profile.*
 
@@ -1351,13 +639,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         919   1.257E+06           1           1    1256561 .TAU application
- 99.9        2282   1.256E+06           1           2    1255642 int main() C 
- 67.6   8.499E+05   8.499E+05           1           0     849896 void saxpy() C 
- 32.1   4.035E+05   4.035E+05           1           0     403464 void init_array() C 
+100.0         816   1.242E+06           1           1    1241855 .TAU application
+ 99.9        2187   1.241E+06           1           2    1241039 int main() C 
+ 67.7   8.406E+05   8.406E+05           1           0     840647 void saxpy() C 
+ 32.1   3.982E+05   3.982E+05           1           0     398205 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 17.527238J
+		package-0	: 15.773703J
+		package-0	: 15.890523J
+		package-0	: 15.262290J
 \n\n\n
 THREAD=24;SIZE=40000
 CONFIG----------
@@ -1373,50 +663,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 24 threads
-Time:0.328907013
+Time:0.353088140
 Summary
 Running for 24 threads
-Time:0.346735954
+Time:0.332311153
 Summary
 Running for 24 threads
-Time:0.344552040
+Time:0.341668844
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -1442,67 +696,31 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 24 threads
-Time:0.368354797
+Time:0.342793226
 Summary
 Running for 24 threads
-Time:0.328756094
+Time:0.366617918
 Summary
 Running for 24 threads
-Time:0.328930140
+Time:0.364645958
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 1.705E+08
-1.705E+08
+1.706E+08
 1.705E+08
 
 ---------------------------------------------------------------------------------------
@@ -1511,68 +729,32 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 24 threads
-Time:0.355884075
+Time:0.338708162
 Summary
 Running for 24 threads
-Time:0.336385012
+Time:0.344747066
 Summary
 Running for 24 threads
-Time:0.337639093
+Time:0.338845968
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
-1.077E+08
-1.08E+08
-1.08E+08
+1.892E+06
+1.875E+06
+1.881E+06
+7.484E+06
+7.402E+06
+7.436E+06
+1.076E+08
+1.078E+08
+1.076E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -1580,68 +762,32 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 24 threads
-Time:0.338006973
+Time:0.342187166
 Summary
 Running for 24 threads
-Time:0.352962971
+Time:0.342015982
 Summary
 Running for 24 threads
-Time:0.329185963
+Time:0.334108829
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
-1.221E+07
-1.234E+07
-1.209E+07
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
+1.264E+07
+1.26E+07
+1.232E+07
 
 ---------------------------------------------------------------------------------------
 
@@ -1650,7 +796,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 24 threads
-Time:5.166517019
+Time:5.331406116
 ---------------------------
 Reading Profile files in profile.*
 
@@ -1659,13 +805,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0        1021   1.209E+07           1           1   12087531 .TAU application
-100.0        2077   1.209E+07           1           2   12086510 int main() C 
- 52.8   6.379E+06   6.379E+06           1           0    6379136 void saxpy() C 
- 47.2   5.705E+06   5.705E+06           1           0    5705297 void init_array() C 
+100.0        1046   1.232E+07           1           1   12317595 .TAU application
+100.0        2176   1.232E+07           1           2   12316549 int main() C 
+ 52.3   6.446E+06   6.446E+06           1           0    6445683 void saxpy() C 
+ 47.6   5.869E+06   5.869E+06           1           0    5868690 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 170.600516J
+		package-0	: 159.840472J
+		package-0	: 160.986831J
+		package-0	: 158.859396J
 \n\n\n
 THREAD=28;SIZE=5000
 CONFIG----------
@@ -1681,50 +829,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 28 threads
-Time:0.022809982
+Time:0.023095131
 Summary
 Running for 28 threads
-Time:0.022841930
+Time:0.023020983
 Summary
 Running for 28 threads
-Time:0.023382187
+Time:0.022185087
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -1753,71 +865,35 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 28 threads
-Time:0.022040129
+Time:0.022902012
 Summary
 Running for 28 threads
-Time:0.022672892
+Time:0.022393942
 Summary
 Running for 28 threads
-Time:0.021387100
+Time:0.022511005
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 1.705E+08
+1.706E+08
 1.705E+08
-1.705E+08
-1.951E+06
-1.949E+06
-1.958E+06
+1.945E+06
+1.96E+06
+1.967E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -1825,71 +901,35 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 28 threads
-Time:0.021917105
+Time:0.021970987
 Summary
 Running for 28 threads
-Time:0.021423101
+Time:0.023327112
 Summary
 Running for 28 threads
-Time:0.022547007
+Time:0.022721052
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
-1.077E+08
-1.08E+08
-1.08E+08
-1.928E+06
-1.902E+06
+1.892E+06
+1.875E+06
 1.881E+06
+7.484E+06
+7.402E+06
+7.436E+06
+1.076E+08
+1.078E+08
+1.076E+08
+1.918E+06
+1.93E+06
+1.924E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -1897,71 +937,35 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 28 threads
-Time:0.021687984
+Time:0.022176981
 Summary
 Running for 28 threads
-Time:0.022893906
+Time:0.023028851
 Summary
 Running for 28 threads
-Time:0.023198128
+Time:0.022377014
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
-1.221E+07
-1.234E+07
-1.209E+07
-3.813E+05
-4.196E+05
-3.783E+05
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
+1.264E+07
+1.26E+07
+1.232E+07
+3.728E+05
+3.913E+05
+3.478E+05
 
 ---------------------------------------------------------------------------------------
 
@@ -1970,7 +974,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 28 threads
-Time:0.689262152
+Time:0.691459179
 ---------------------------
 Reading Profile files in profile.*
 
@@ -1979,13 +983,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         776   3.783E+05           1           1     378253 .TAU application
- 99.8        2003   3.775E+05           1           2     377477 int main() C 
- 65.4   2.475E+05   2.475E+05           1           0     247462 void saxpy() C 
- 33.8    1.28E+05    1.28E+05           1           0     128012 void init_array() C 
+100.0         750   3.478E+05           1           1     347824 .TAU application
+ 99.8        2190   3.471E+05           1           2     347074 int main() C 
+ 62.0   2.155E+05   2.155E+05           1           0     215516 void saxpy() C 
+ 37.2   1.294E+05   1.294E+05           1           0     129368 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 8.730020J
+		package-0	: 7.984781J
+		package-0	: 8.281351J
+		package-0	: 17.261186J
 \n\n\n
 THREAD=28;SIZE=10000
 CONFIG----------
@@ -2001,50 +1007,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 28 threads
-Time:0.050306082
+Time:0.051476955
 Summary
 Running for 28 threads
-Time:0.050868034
+Time:0.051443100
 Summary
 Running for 28 threads
-Time:0.050287008
+Time:0.051449060
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -2076,74 +1046,38 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 28 threads
-Time:0.051043034
+Time:0.050688982
 Summary
 Running for 28 threads
-Time:0.051031113
+Time:0.054913044
 Summary
 Running for 28 threads
-Time:0.049196959
+Time:0.052323818
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 1.705E+08
+1.706E+08
 1.705E+08
-1.705E+08
-1.951E+06
-1.949E+06
-1.958E+06
-7.961E+06
-7.938E+06
-7.919E+06
+1.945E+06
+1.96E+06
+1.967E+06
+8.043E+06
+7.812E+06
+8.094E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -2151,74 +1085,38 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 28 threads
-Time:0.047571898
+Time:0.049962044
 Summary
 Running for 28 threads
-Time:0.050349951
+Time:0.047537088
 Summary
 Running for 28 threads
-Time:0.053922892
+Time:0.050607920
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
-1.077E+08
-1.08E+08
-1.08E+08
-1.928E+06
-1.902E+06
+1.892E+06
+1.875E+06
 1.881E+06
-7.314E+06
-7.379E+06
-7.281E+06
+7.484E+06
+7.402E+06
+7.436E+06
+1.076E+08
+1.078E+08
+1.076E+08
+1.918E+06
+1.93E+06
+1.924E+06
+7.318E+06
+7.328E+06
+7.265E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -2226,74 +1124,38 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 28 threads
-Time:0.050681829
+Time:0.051368952
 Summary
 Running for 28 threads
-Time:0.049418211
+Time:0.050817013
 Summary
 Running for 28 threads
-Time:0.049315929
+Time:0.048692942
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
-1.221E+07
-1.234E+07
-1.209E+07
-3.813E+05
-4.196E+05
-3.783E+05
-1.169E+06
-1.238E+06
-1.332E+06
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
+1.264E+07
+1.26E+07
+1.232E+07
+3.728E+05
+3.913E+05
+3.478E+05
+1.354E+06
+1.012E+06
+1.112E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -2302,7 +1164,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 28 threads
-Time:1.344788074
+Time:1.371310949
 ---------------------------
 Reading Profile files in profile.*
 
@@ -2311,13 +1173,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         847   1.332E+06           1           1    1331631 .TAU application
- 99.9        2110   1.331E+06           1           2    1330784 int main() C 
- 68.9   9.172E+05   9.172E+05           1           0     917230 void saxpy() C 
- 30.9   4.114E+05   4.114E+05           1           0     411444 void init_array() C 
+100.0         677   1.112E+06           1           1    1111889 .TAU application
+ 99.9        2066   1.111E+06           1           2    1111212 int main() C 
+ 63.5   7.064E+05   7.064E+05           1           0     706380 void saxpy() C 
+ 36.2   4.028E+05   4.028E+05           1           0     402766 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 17.793228J
+		package-0	: 16.368000J
+		package-0	: 16.293659J
+		package-0	: 16.214314J
 \n\n\n
 THREAD=28;SIZE=40000
 CONFIG----------
@@ -2333,50 +1197,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 28 threads
-Time:0.347365141
+Time:0.333305120
 Summary
 Running for 28 threads
-Time:0.353816986
+Time:0.333547115
 Summary
 Running for 28 threads
-Time:0.333294868
+Time:0.338553905
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -2411,77 +1239,41 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 28 threads
-Time:0.330485106
+Time:0.371673822
 Summary
 Running for 28 threads
-Time:0.369328022
+Time:0.333754063
 Summary
 Running for 28 threads
-Time:0.343643188
+Time:0.341076851
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 1.705E+08
+1.706E+08
 1.705E+08
-1.705E+08
-1.951E+06
-1.949E+06
-1.958E+06
-7.961E+06
-7.938E+06
-7.919E+06
+1.945E+06
+1.96E+06
+1.967E+06
+8.043E+06
+7.812E+06
+8.094E+06
 1.609E+08
-1.609E+08
-1.609E+08
+1.608E+08
+1.608E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -2489,77 +1281,41 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 28 threads
-Time:0.358564854
+Time:0.345539093
 Summary
 Running for 28 threads
-Time:0.321579218
+Time:0.350642204
 Summary
 Running for 28 threads
-Time:0.336838961
+Time:0.344957113
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
-1.077E+08
-1.08E+08
-1.08E+08
-1.928E+06
-1.902E+06
+1.892E+06
+1.875E+06
 1.881E+06
-7.314E+06
-7.379E+06
-7.281E+06
+7.484E+06
+7.402E+06
+7.436E+06
+1.076E+08
+1.078E+08
+1.076E+08
+1.918E+06
+1.93E+06
+1.924E+06
+7.318E+06
+7.328E+06
+7.265E+06
 1.073E+08
-1.072E+08
 1.07E+08
+1.072E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -2567,77 +1323,41 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 28 threads
-Time:0.365154982
+Time:0.338047981
 Summary
 Running for 28 threads
-Time:0.328206062
+Time:0.345328093
 Summary
 Running for 28 threads
-Time:0.323863029
+Time:0.328891993
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
-1.221E+07
-1.234E+07
-1.209E+07
-3.813E+05
-4.196E+05
-3.783E+05
-1.169E+06
-1.238E+06
-1.332E+06
-1.151E+07
-1.154E+07
-1.128E+07
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
+1.264E+07
+1.26E+07
+1.232E+07
+3.728E+05
+3.913E+05
+3.478E+05
+1.354E+06
+1.012E+06
+1.112E+06
+1.191E+07
+1.173E+07
+1.145E+07
 
 ---------------------------------------------------------------------------------------
 
@@ -2646,7 +1366,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 28 threads
-Time:5.940174818
+Time:5.977711916
 ---------------------------
 Reading Profile files in profile.*
 
@@ -2655,13 +1375,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0        1010   1.128E+07           1           1   11278648 .TAU application
-100.0        2336   1.128E+07           1           2   11277638 int main() C 
- 50.5   5.692E+06   5.692E+06           1           0    5692192 void init_array() C 
- 49.5   5.583E+06   5.583E+06           1           0    5583110 void saxpy() C 
+100.0        1025   1.145E+07           1           1   11448114 .TAU application
+100.0        2277   1.145E+07           1           2   11447089 int main() C 
+ 51.8   5.936E+06   5.936E+06           1           0    5935589 void init_array() C 
+ 48.1   5.509E+06   5.509E+06           1           0    5509223 void saxpy() C 
 RAPL
 ----------------------------
-		package-0	: 180.253994J
+		package-0	: 161.547560J
+		package-0	: 164.222175J
+		package-0	: 160.890640J
 \n\n\n
 THREAD=96;SIZE=5000
 CONFIG----------
@@ -2677,50 +1399,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 96 threads
-Time:0.552875996
+Time:0.507222891
 Summary
 Running for 96 threads
-Time:0.552200794
+Time:0.660328865
 Summary
 Running for 96 threads
-Time:0.489603996
+Time:0.511554956
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -2758,80 +1444,44 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 96 threads
-Time:0.377111912
+Time:0.357887030
 Summary
 Running for 96 threads
-Time:0.369680166
+Time:0.367169857
 Summary
 Running for 96 threads
-Time:0.361172915
+Time:0.514332056
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 1.705E+08
+1.706E+08
 1.705E+08
-1.705E+08
-1.951E+06
-1.949E+06
-1.958E+06
-7.961E+06
-7.938E+06
-7.919E+06
+1.945E+06
+1.96E+06
+1.967E+06
+8.043E+06
+7.812E+06
+8.094E+06
 1.609E+08
-1.609E+08
-1.609E+08
-2.203E+06
-2.195E+06
-2.24E+06
+1.608E+08
+1.608E+08
+2.21E+06
+2.205E+06
+2.718E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -2839,80 +1489,44 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 96 threads
-Time:0.642075062
+Time:0.676553965
 Summary
 Running for 96 threads
-Time:0.626430035
+Time:0.447915077
 Summary
 Running for 96 threads
-Time:0.521959066
+Time:0.511811972
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
-1.077E+08
-1.08E+08
-1.08E+08
-1.928E+06
-1.902E+06
+1.892E+06
+1.875E+06
 1.881E+06
-7.314E+06
-7.379E+06
-7.281E+06
+7.484E+06
+7.402E+06
+7.436E+06
+1.076E+08
+1.078E+08
+1.076E+08
+1.918E+06
+1.93E+06
+1.924E+06
+7.318E+06
+7.328E+06
+7.265E+06
 1.073E+08
-1.072E+08
 1.07E+08
-1.958E+06
-1.909E+06
-2.002E+06
+1.072E+08
+1.911E+06
+2.081E+06
+1.983E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -2920,80 +1534,44 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 96 threads
-Time:0.551554918
+Time:0.352474213
 Summary
 Running for 96 threads
-Time:0.623609066
+Time:0.484626055
 Summary
 Running for 96 threads
-Time:0.496026993
+Time:0.547969103
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
-1.221E+07
-1.234E+07
-1.209E+07
-3.813E+05
-4.196E+05
-3.783E+05
-1.169E+06
-1.238E+06
-1.332E+06
-1.151E+07
-1.154E+07
-1.128E+07
-3.381E+05
-4.159E+05
-4.138E+05
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
+1.264E+07
+1.26E+07
+1.232E+07
+3.728E+05
+3.913E+05
+3.478E+05
+1.354E+06
+1.012E+06
+1.112E+06
+1.191E+07
+1.173E+07
+1.145E+07
+3.962E+05
+3.319E+05
+3.557E+05
 
 ---------------------------------------------------------------------------------------
 
@@ -3002,7 +1580,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 96 threads
-Time:5.323737144
+Time:4.709333897
 ---------------------------
 Reading Profile files in profile.*
 
@@ -3011,13 +1589,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         805   4.138E+05           1           1     413811 .TAU application
- 99.8        2029    4.13E+05           1           2     413006 int main() C 
- 67.0   2.774E+05   2.774E+05           1           0     277411 void saxpy() C 
- 32.3   1.336E+05   1.336E+05           1           0     133566 void init_array() C 
+100.0         756   3.557E+05           1           1     355718 .TAU application
+ 99.8        1924    3.55E+05           1           2     354962 int main() C 
+ 63.5   2.258E+05   2.258E+05           1           0     225799 void saxpy() C 
+ 35.8   1.272E+05   1.272E+05           1           0     127239 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 52.998033J
+		package-0	: 35.292207J
+		package-0	: 46.718509J
+		package-0	: 37.808620J
 \n\n\n
 THREAD=96;SIZE=10000
 CONFIG----------
@@ -3033,50 +1613,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 96 threads
-Time:0.763339996
+Time:0.997938871
 Summary
 Running for 96 threads
-Time:0.996228933
+Time:0.930034876
 Summary
 Running for 96 threads
-Time:1.139800072
+Time:1.430840015
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -3117,83 +1661,47 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 96 threads
-Time:1.084118128
+Time:0.705042839
 Summary
 Running for 96 threads
-Time:1.096550941
+Time:1.104474068
 Summary
 Running for 96 threads
-Time:1.048352003
+Time:1.013880014
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 1.705E+08
+1.706E+08
 1.705E+08
-1.705E+08
-1.951E+06
-1.949E+06
-1.958E+06
-7.961E+06
-7.938E+06
-7.919E+06
+1.945E+06
+1.96E+06
+1.967E+06
+8.043E+06
+7.812E+06
+8.094E+06
 1.609E+08
-1.609E+08
-1.609E+08
-2.203E+06
-2.195E+06
-2.24E+06
-9.2E+06
-9.187E+06
-9.123E+06
+1.608E+08
+1.608E+08
+2.21E+06
+2.205E+06
+2.718E+06
+7.662E+06
+9.07E+06
+8.996E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -3201,83 +1709,47 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 96 threads
-Time:0.709413052
+Time:0.728578091
 Summary
 Running for 96 threads
-Time:1.150161028
+Time:1.051884890
 Summary
 Running for 96 threads
-Time:0.713871002
+Time:0.711411953
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
-1.077E+08
-1.08E+08
-1.08E+08
-1.928E+06
-1.902E+06
+1.892E+06
+1.875E+06
 1.881E+06
-7.314E+06
-7.379E+06
-7.281E+06
+7.484E+06
+7.402E+06
+7.436E+06
+1.076E+08
+1.078E+08
+1.076E+08
+1.918E+06
+1.93E+06
+1.924E+06
+7.318E+06
+7.328E+06
+7.265E+06
 1.073E+08
-1.072E+08
 1.07E+08
-1.958E+06
-1.909E+06
-2.002E+06
-7.457E+06
-7.242E+06
-7.246E+06
+1.072E+08
+1.911E+06
+2.081E+06
+1.983E+06
+7.305E+06
+7.226E+06
+7.282E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -3285,83 +1757,47 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 96 threads
-Time:1.294064999
+Time:0.993380070
 Summary
 Running for 96 threads
-Time:0.708473921
+Time:0.923027992
 Summary
 Running for 96 threads
-Time:0.828894138
+Time:0.773594141
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
-1.221E+07
-1.234E+07
-1.209E+07
-3.813E+05
-4.196E+05
-3.783E+05
-1.169E+06
-1.238E+06
-1.332E+06
-1.151E+07
-1.154E+07
-1.128E+07
-3.381E+05
-4.159E+05
-4.138E+05
-1.011E+06
-9.004E+05
-1.192E+06
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
+1.264E+07
+1.26E+07
+1.232E+07
+3.728E+05
+3.913E+05
+3.478E+05
+1.354E+06
+1.012E+06
+1.112E+06
+1.191E+07
+1.173E+07
+1.145E+07
+3.962E+05
+3.319E+05
+3.557E+05
+9.123E+05
+1.243E+06
+1.045E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -3370,7 +1806,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 96 threads
-Time:9.869097948
+Time:7.800613880
 ---------------------------
 Reading Profile files in profile.*
 
@@ -3379,13 +1815,15 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         766   1.192E+06           1           1    1191544 .TAU application
- 99.9        2055   1.191E+06           1           2    1190778 int main() C 
- 65.9   7.855E+05   7.855E+05           1           0     785510 void saxpy() C 
- 33.8   4.032E+05   4.032E+05           1           0     403213 void init_array() C 
+100.0         812   1.045E+06           1           1    1045002 .TAU application
+ 99.9        2265   1.044E+06           1           2    1044190 int main() C 
+ 60.1   6.278E+05   6.278E+05           1           0     627835 void saxpy() C 
+ 39.6   4.141E+05   4.141E+05           1           0     414090 void init_array() C 
 RAPL
 ----------------------------
-		package-0	: 58.071873J
+		package-0	: 77.259446J
+		package-0	: 59.233735J
+		package-0	: 72.501584J
 \n\n\n
 THREAD=96;SIZE=40000
 CONFIG----------
@@ -3401,50 +1839,14 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 Running for 96 threads
-Time:4.619801998
+Time:4.059262991
 Summary
 Running for 96 threads
-Time:3.332120895
+Time:5.455703974
 Summary
 Running for 96 threads
-Time:4.771996021
+Time:0.532889843
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.75E+07
 3.75E+07
 3.75E+07
@@ -3488,86 +1890,50 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 Running for 96 threads
-Time:4.466804028
+Time:4.114084005
 Summary
 Running for 96 threads
-Time:3.315693140
+Time:3.380332947
 Summary
 Running for 96 threads
-Time:3.268689156
+Time:4.039186001
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8.877E+06
 8.901E+06
-8.864E+06
+8.898E+06
+8.908E+06
 3.4E+07
 3.4E+07
-3.401E+07
-5.3E+08
-5.3E+08
-5.3E+08
-1.977E+06
-2.019E+06
-1.993E+06
-9.228E+06
-9.164E+06
-9.205E+06
+3.402E+07
+5.299E+08
+5.299E+08
+5.299E+08
+2.008E+06
+1.98E+06
+1.983E+06
+9.259E+06
+9.186E+06
+9.244E+06
 1.705E+08
+1.706E+08
 1.705E+08
-1.705E+08
-1.951E+06
-1.949E+06
-1.958E+06
-7.961E+06
-7.938E+06
-7.919E+06
+1.945E+06
+1.96E+06
+1.967E+06
+8.043E+06
+7.812E+06
+8.094E+06
 1.609E+08
-1.609E+08
-1.609E+08
-2.203E+06
-2.195E+06
-2.24E+06
-9.2E+06
-9.187E+06
-9.123E+06
-1.249E+08
-1.218E+08
-1.218E+08
+1.608E+08
+1.608E+08
+2.21E+06
+2.205E+06
+2.718E+06
+7.662E+06
+9.07E+06
+8.996E+06
+1.236E+08
+1.217E+08
+1.243E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -3575,86 +1941,50 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 Running for 96 threads
-Time:3.340411901
+Time:3.344508171
 Summary
 Running for 96 threads
-Time:4.231965065
+Time:4.806372166
 Summary
 Running for 96 threads
-Time:3.891155958
+Time:3.335853100
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2.13E+06
-2.133E+06
-2.132E+06
-8.342E+06
-8.362E+06
-8.344E+06
+2.139E+06
+2.136E+06
+2.138E+06
+8.334E+06
+8.322E+06
+8.356E+06
 5.08E+08
-5.081E+08
+5.078E+08
 5.08E+08
-1.873E+06
-1.871E+06
-1.886E+06
-7.395E+06
-7.373E+06
-7.418E+06
-1.077E+08
-1.08E+08
-1.08E+08
-1.928E+06
-1.902E+06
+1.892E+06
+1.875E+06
 1.881E+06
-7.314E+06
-7.379E+06
-7.281E+06
+7.484E+06
+7.402E+06
+7.436E+06
+1.076E+08
+1.078E+08
+1.076E+08
+1.918E+06
+1.93E+06
+1.924E+06
+7.318E+06
+7.328E+06
+7.265E+06
 1.073E+08
-1.072E+08
 1.07E+08
-1.958E+06
-1.909E+06
-2.002E+06
-7.457E+06
-7.242E+06
-7.246E+06
+1.072E+08
+1.911E+06
+2.081E+06
+1.983E+06
+7.305E+06
+7.226E+06
+7.282E+06
 1.055E+08
-1.053E+08
-1.062E+08
+1.051E+08
+1.052E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -3662,86 +1992,50 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 Running for 96 threads
-Time:4.571487904
+Time:4.263168097
 Summary
 Running for 96 threads
-Time:4.143620014
+Time:4.649260998
 Summary
 Running for 96 threads
-Time:3.981481791
+Time:5.456954956
 Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7.017E+05
-7.168E+05
-6.891E+05
-2.508E+06
-2.419E+06
-2.524E+06
-4.813E+07
-4.762E+07
-4.765E+07
-3.258E+05
-3.295E+05
-3.609E+05
-1.246E+06
-1.267E+06
-1.257E+06
-1.221E+07
-1.234E+07
-1.209E+07
-3.813E+05
-4.196E+05
-3.783E+05
-1.169E+06
-1.238E+06
-1.332E+06
-1.151E+07
-1.154E+07
-1.128E+07
-3.381E+05
-4.159E+05
-4.138E+05
-1.011E+06
-9.004E+05
-1.192E+06
-9.152E+06
-9.672E+06
-1.025E+07
+7.113E+05
+7.184E+05
+6.982E+05
+2.444E+06
+2.426E+06
+2.515E+06
+4.782E+07
+4.819E+07
+4.784E+07
+3.944E+05
+3.543E+05
+3.641E+05
+1.254E+06
+1.027E+06
+1.242E+06
+1.264E+07
+1.26E+07
+1.232E+07
+3.728E+05
+3.913E+05
+3.478E+05
+1.354E+06
+1.012E+06
+1.112E+06
+1.191E+07
+1.173E+07
+1.145E+07
+3.962E+05
+3.319E+05
+3.557E+05
+9.123E+05
+1.243E+06
+1.045E+06
+1.003E+07
+9.422E+06
+1.014E+07
 
 ---------------------------------------------------------------------------------------
 
@@ -3750,7 +2044,7 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 Running for 96 threads
-Time:37.944355965
+Time:39.385529995
 ---------------------------
 Reading Profile files in profile.*
 
@@ -3759,10 +2053,12 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         665   1.025E+07           1           1   10248828 .TAU application
-100.0        2344   1.025E+07           1           2   10248163 int main() C 
- 55.8   5.715E+06   5.715E+06           1           0    5715439 void init_array() C 
- 44.2    4.53E+06    4.53E+06           1           0    4530380 void saxpy() C 
+100.0         910   1.014E+07           1           1   10138447 .TAU application
+100.0        2314   1.014E+07           1           2   10137537 int main() C 
+ 58.6   5.938E+06   5.938E+06           1           0    5938498 void init_array() C 
+ 41.4   4.197E+06   4.197E+06           1           0    4196725 void saxpy() C 
 RAPL
 ----------------------------
-		package-0	: 371.964197J
+		package-0	: 318.856667J
+		package-0	: 358.223814J
+		package-0	: 335.980890J

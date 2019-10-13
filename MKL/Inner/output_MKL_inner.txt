@@ -28,7 +28,7 @@ Evaluating code for: PAPI_SP_OPS
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.260334 seconds
+Time taken = 1.263326 seconds
 
  Computations completed.
 
@@ -76,7 +76,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.248160 seconds
+Time taken = 1.238413 seconds
 
  Computations completed.
 
@@ -124,7 +124,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.242478 seconds
+Time taken = 1.241074 seconds
 
  Computations completed.
 
@@ -181,7 +181,7 @@ Evaluating code for: PAPI_L1_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.240142 seconds
+Time taken = 1.247018 seconds
 
  Computations completed.
 
@@ -229,7 +229,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.248207 seconds
+Time taken = 1.245087 seconds
 
  Computations completed.
 
@@ -243,7 +243,7 @@ Time taken = 1.248207 seconds
 
  Top left corner of matrix B: 
           -1          -2          -3          -4          -5          -6
-q       -5001       -5002       -5003       -5004       -5005       -5006
+       -5001       -5002       -5003       -5004       -5005       -5006
       -10001      -10002      -10003      -10004      -10005      -10006
       -15001      -15002      -15003      -15004      -15005      -15006
       -20001      -20002      -20003      -20004      -20005      -20006
@@ -277,7 +277,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.250732 seconds
+Time taken = 1.243546 seconds
 
  Computations completed.
 
@@ -334,7 +334,7 @@ Evaluating code for: PAPI_L2_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.245907 seconds
+Time taken = 1.255225 seconds
 
  Computations completed.
 
@@ -382,7 +382,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.243284 seconds
+Time taken = 1.245386 seconds
 
  Computations completed.
 
@@ -430,7 +430,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.250722 seconds
+Time taken = 1.250542 seconds
 
  Computations completed.
 
@@ -463,9 +463,9 @@ Time taken = 1.250722 seconds
  Example completed. 
 
 Summary
-1.163E+08
-1.071E+08
-1.169E+08
+1.301E+08
+1.168E+08
+1.347E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -487,7 +487,7 @@ Evaluating code for: PAPI_L3_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.246019 seconds
+Time taken = 1.248592 seconds
 
  Computations completed.
 
@@ -535,7 +535,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.249865 seconds
+Time taken = 1.248259 seconds
 
  Computations completed.
 
@@ -583,7 +583,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.252485 seconds
+Time taken = 1.251343 seconds
 
  Computations completed.
 
@@ -616,9 +616,9 @@ Time taken = 1.252485 seconds
  Example completed. 
 
 Summary
-2.966E+07
-3.036E+07
-3.015E+07
+3.155E+07
+3.002E+07
+2.992E+07
 
 ---------------------------------------------------------------------------------------
 
@@ -641,7 +641,7 @@ SUMMARY-----------------------------------------
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.252222 seconds
+Time taken = 1.242787 seconds
 
  Computations completed.
 
@@ -681,13 +681,13 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0        1072   3.015E+07           1           1   30152266 .TAU application
-100.0   3.015E+07   3.015E+07           1           0   30151194 int main() C 
+100.0         979   2.992E+07           1           1   29918499 .TAU application
+100.0   2.992E+07   2.992E+07           1           0   29917520 int main() C 
 RAPL
 ----------------------------
-		package-0	: 83.173371J
-		package-0	: 84.457060J
-		package-0	: 83.870879J
+		package-0	: 106.063815J
+		package-0	: 86.753073J
+		package-0	: 87.172018J
 \n\n\n
 THREAD=4;SIZE=10000
 COMPILE---------------------------------------
@@ -718,7 +718,7 @@ Evaluating code for: PAPI_SP_OPS
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.617452 seconds
+Time taken = 9.648602 seconds
 
  Computations completed.
 
@@ -766,7 +766,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.613957 seconds
+Time taken = 9.563090 seconds
 
  Computations completed.
 
@@ -814,7 +814,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.652915 seconds
+Time taken = 9.615157 seconds
 
  Computations completed.
 
@@ -874,7 +874,7 @@ Evaluating code for: PAPI_L1_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.632657 seconds
+Time taken = 9.631603 seconds
 
  Computations completed.
 
@@ -922,7 +922,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.616542 seconds
+Time taken = 9.574838 seconds
 
  Computations completed.
 
@@ -970,7 +970,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.609892 seconds
+Time taken = 9.601798 seconds
 
  Computations completed.
 
@@ -1006,8 +1006,8 @@ Summary
 1.194E+09
 1.194E+09
 1.194E+09
-9.481E+09
 9.48E+09
+9.482E+09
 9.48E+09
 
 ---------------------------------------------------------------------------------------
@@ -1030,7 +1030,7 @@ Evaluating code for: PAPI_L2_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.616104 seconds
+Time taken = 10.130808 seconds
 
  Computations completed.
 
@@ -1078,7 +1078,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.634877 seconds
+Time taken = 9.596943 seconds
 
  Computations completed.
 
@@ -1126,7 +1126,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.612811 seconds
+Time taken = 9.610766 seconds
 
  Computations completed.
 
@@ -1159,12 +1159,12 @@ Time taken = 9.612811 seconds
  Example completed. 
 
 Summary
-1.163E+08
-1.071E+08
-1.169E+08
-7.162E+08
-9.794E+08
-8.41E+08
+1.301E+08
+1.168E+08
+1.347E+08
+8.227E+08
+5.527E+08
+8.133E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -1186,7 +1186,7 @@ Evaluating code for: PAPI_L3_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.586072 seconds
+Time taken = 9.621794 seconds
 
  Computations completed.
 
@@ -1234,7 +1234,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.607650 seconds
+Time taken = 9.637064 seconds
 
  Computations completed.
 
@@ -1282,7 +1282,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.631138 seconds
+Time taken = 9.587996 seconds
 
  Computations completed.
 
@@ -1315,12 +1315,12 @@ Time taken = 9.631138 seconds
  Example completed. 
 
 Summary
-2.966E+07
-3.036E+07
-3.015E+07
-2.349E+08
-2.47E+08
-2.331E+08
+3.155E+07
+3.002E+07
+2.992E+07
+2.34E+08
+2.558E+08
+2.274E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -1343,7 +1343,7 @@ SUMMARY-----------------------------------------
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.617369 seconds
+Time taken = 9.570109 seconds
 
  Computations completed.
 
@@ -1383,13 +1383,13 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         685   2.331E+08           1           1  233056381 .TAU application
-100.0   2.331E+08   2.331E+08           1           0  233055696 int main() C 
+100.0        1057   2.274E+08           1           1  227354205 .TAU application
+100.0   2.274E+08   2.274E+08           1           0  227353148 int main() C 
 RAPL
 ----------------------------
-		package-0	: 608.748686J
-		package-0	: 594.702823J
-		package-0	: 595.622743J
+		package-0	: 622.810112J
+		package-0	: 636.782916J
+		package-0	: 621.752803J
 \n\n\n
 THREAD=4;SIZE=40000
 COMPILE---------------------------------------
@@ -1420,7 +1420,7 @@ Evaluating code for: PAPI_SP_OPS
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 620.305988 seconds
+Time taken = 617.993356 seconds
 
  Computations completed.
 
@@ -1468,7 +1468,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 619.333057 seconds
+Time taken = 625.692768 seconds
 
  Computations completed.
 
@@ -1501,4 +1501,3 @@ Time taken = 619.333057 seconds
  Example completed. 
 
 Summary
-slurmstepd: error: *** JOB 4491747 ON c506-134 CANCELLED AT 2019-10-13T11:07:25 ***
