@@ -1,2 +1,2 @@
-#define SIZE 5000
+#define SIZE 40000
 #define THREAD 4
