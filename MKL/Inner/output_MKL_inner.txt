@@ -28,7 +28,7 @@ Evaluating code for: PAPI_SP_OPS
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.263326 seconds
+Time taken = 1.254253 seconds
 
  Computations completed.
 
@@ -76,7 +76,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.238413 seconds
+Time taken = 1.253708 seconds
 
  Computations completed.
 
@@ -124,7 +124,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.241074 seconds
+Time taken = 1.247335 seconds
 
  Computations completed.
 
@@ -181,7 +181,7 @@ Evaluating code for: PAPI_L1_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.247018 seconds
+Time taken = 1.247724 seconds
 
  Computations completed.
 
@@ -229,7 +229,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.245087 seconds
+Time taken = 1.244410 seconds
 
  Computations completed.
 
@@ -277,7 +277,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.243546 seconds
+Time taken = 1.253773 seconds
 
  Computations completed.
 
@@ -334,7 +334,7 @@ Evaluating code for: PAPI_L2_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.255225 seconds
+Time taken = 1.246775 seconds
 
  Computations completed.
 
@@ -382,7 +382,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.245386 seconds
+Time taken = 1.255126 seconds
 
  Computations completed.
 
@@ -430,7 +430,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.250542 seconds
+Time taken = 1.249102 seconds
 
  Computations completed.
 
@@ -463,9 +463,9 @@ Time taken = 1.250542 seconds
  Example completed. 
 
 Summary
-1.301E+08
-1.168E+08
-1.347E+08
+8.995E+07
+1.363E+08
+1.342E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -487,7 +487,7 @@ Evaluating code for: PAPI_L3_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.248592 seconds
+Time taken = 1.249163 seconds
 
  Computations completed.
 
@@ -535,7 +535,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.248259 seconds
+Time taken = 1.253308 seconds
 
  Computations completed.
 
@@ -583,7 +583,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.251343 seconds
+Time taken = 1.250333 seconds
 
  Computations completed.
 
@@ -616,9 +616,9 @@ Time taken = 1.251343 seconds
  Example completed. 
 
 Summary
-3.155E+07
-3.002E+07
-2.992E+07
+3.006E+07
+3.141E+07
+3.13E+07
 
 ---------------------------------------------------------------------------------------
 
@@ -641,7 +641,7 @@ SUMMARY-----------------------------------------
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 1.242787 seconds
+Time taken = 1.246331 seconds
 
  Computations completed.
 
@@ -681,13 +681,13 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         979   2.992E+07           1           1   29918499 .TAU application
-100.0   2.992E+07   2.992E+07           1           0   29917520 int main() C 
+100.0        1157    3.13E+07           1           1   31295547 .TAU application
+100.0   3.129E+07   3.129E+07           1           0   31294390 int main() C 
 RAPL
 ----------------------------
-		package-0	: 106.063815J
-		package-0	: 86.753073J
-		package-0	: 87.172018J
+		package-0	: 87.778340J
+		package-0	: 87.679951J
+		package-0	: 86.666099J
 \n\n\n
 THREAD=4;SIZE=10000
 COMPILE---------------------------------------
@@ -718,7 +718,7 @@ Evaluating code for: PAPI_SP_OPS
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.648602 seconds
+Time taken = 9.638420 seconds
 
  Computations completed.
 
@@ -766,7 +766,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.563090 seconds
+Time taken = 9.556047 seconds
 
  Computations completed.
 
@@ -814,7 +814,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.615157 seconds
+Time taken = 9.671204 seconds
 
  Computations completed.
 
@@ -874,7 +874,7 @@ Evaluating code for: PAPI_L1_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.631603 seconds
+Time taken = 9.638668 seconds
 
  Computations completed.
 
@@ -922,7 +922,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.574838 seconds
+Time taken = 9.624118 seconds
 
  Computations completed.
 
@@ -970,7 +970,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.601798 seconds
+Time taken = 9.638070 seconds
 
  Computations completed.
 
@@ -1007,8 +1007,8 @@ Summary
 1.194E+09
 1.194E+09
 9.48E+09
-9.482E+09
-9.48E+09
+9.481E+09
+9.479E+09
 
 ---------------------------------------------------------------------------------------
 
@@ -1030,7 +1030,7 @@ Evaluating code for: PAPI_L2_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 10.130808 seconds
+Time taken = 9.580674 seconds
 
  Computations completed.
 
@@ -1078,7 +1078,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.596943 seconds
+Time taken = 9.621063 seconds
 
  Computations completed.
 
@@ -1126,7 +1126,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.610766 seconds
+Time taken = 9.649085 seconds
 
  Computations completed.
 
@@ -1159,12 +1159,12 @@ Time taken = 9.610766 seconds
  Example completed. 
 
 Summary
-1.301E+08
-1.168E+08
-1.347E+08
-8.227E+08
-5.527E+08
-8.133E+08
+8.995E+07
+1.363E+08
+1.342E+08
+9.049E+08
+8.73E+08
+8.002E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -1186,7 +1186,7 @@ Evaluating code for: PAPI_L3_TCM
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.621794 seconds
+Time taken = 9.622866 seconds
 
  Computations completed.
 
@@ -1234,7 +1234,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.637064 seconds
+Time taken = 10.026754 seconds
 
  Computations completed.
 
@@ -1282,7 +1282,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.587996 seconds
+Time taken = 9.708171 seconds
 
  Computations completed.
 
@@ -1315,12 +1315,12 @@ Time taken = 9.587996 seconds
  Example completed. 
 
 Summary
-3.155E+07
-3.002E+07
-2.992E+07
-2.34E+08
-2.558E+08
-2.274E+08
+3.006E+07
+3.141E+07
+3.13E+07
+2.503E+08
+2.339E+08
+2.304E+08
 
 ---------------------------------------------------------------------------------------
 
@@ -1343,7 +1343,7 @@ SUMMARY-----------------------------------------
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 9.570109 seconds
+Time taken = 9.606033 seconds
 
  Computations completed.
 
@@ -1383,13 +1383,13 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0        1057   2.274E+08           1           1  227354205 .TAU application
-100.0   2.274E+08   2.274E+08           1           0  227353148 int main() C 
+100.0        1053   2.304E+08           1           1  230363487 .TAU application
+100.0   2.304E+08   2.304E+08           1           0  230362434 int main() C 
 RAPL
 ----------------------------
-		package-0	: 622.810112J
-		package-0	: 636.782916J
-		package-0	: 621.752803J
+		package-0	: 623.599722J
+		package-0	: 619.226503J
+		package-0	: 625.456895J
 \n\n\n
 THREAD=4;SIZE=40000
 COMPILE---------------------------------------
@@ -1420,7 +1420,7 @@ Evaluating code for: PAPI_SP_OPS
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 617.993356 seconds
+Time taken = 652.555829 seconds
 
  Computations completed.
 
@@ -1468,7 +1468,7 @@ Summary
 
  Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
 
-Time taken = 625.692768 seconds
+Time taken = 668.963156 seconds
 
  Computations completed.
 
@@ -1501,4 +1501,163 @@ Time taken = 625.692768 seconds
  Example completed. 
 
 Summary
-slurmstepd: error: *** JOB 4492036 ON c495-084 CANCELLED AT 2019-10-13T12:17:04 DUE TO TIME LIMIT ***
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 634.859454 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+2.507E+11
+2.507E+11
+2.507E+11
+2.003E+12
+2.003E+12
+2.003E+12
+1.282E+14
+1.282E+14
+1.282E+14
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 659.834204 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 641.786527 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+slurmstepd: error: *** JOB 4492168 ON c495-084 CANCELLED AT 2019-10-13T13:23:46 DUE TO TIME LIMIT ***
