@@ -13,6 +13,9 @@ OUTER_THREADS_24=(1 4 24)
 OUTER_THREADS_48=(1 8 48)
 OUTER_THREADS_96=(1 4 96)
 
+# Remove all previous PAPI file
+rm PAPI_*.txt
+
 for THREAD in ${THREADS[*]}; do
     for S in ${NSIZES[*]}; do
         OUTER_THREADS_NAME=OUTER_THREADS_${THREAD}

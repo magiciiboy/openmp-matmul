@@ -8,6 +8,9 @@ export TAU_OPTIONS='-optVerbose'
 THREADS=(4 24 48 96)
 NSIZES=(5000 10000 40000)
 
+# Remove all previous PAPI file
+rm PAPI_*.txt
+
 for THREAD in ${THREADS[*]}; do
     for S in ${NSIZES[*]}; do
         echo "\n\n\n"
