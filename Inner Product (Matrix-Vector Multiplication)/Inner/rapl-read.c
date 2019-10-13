@@ -855,7 +855,7 @@ static int rapl_sysfs(int core) {
 	}
 
 	printf("Running matrix-vector multiplication code...\n");
-	system("numactl --cpunodebind=0 --membind=0 ./out_simple");
+	system("numactl --cpunodebind=0 --membind=0 ./matmul");
 
 	/* Gather after values */
 	for(j=0;j<total_packages;j++) {

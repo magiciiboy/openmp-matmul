@@ -61,16 +61,11 @@ void classic_vec_matmul()
 }
 
 int main(){
-        int i,j;
-        init_array();
-	for(i=0; i<TH_CNT; i++){
-                printf("Running for %d threads\n",THREADS[i]);
-                omp_set_num_threads(THREADS[i]);
-
-		double start = omp_get_wtime(); 
-        	classic_vec_matmul();
-		double end = omp_get_wtime();
-	//	display();
-		printf("Time:%1.9f\n",end-start);
-	}
+    init_array();
+    printf("Running for %d threads\n",THREAD);
+    omp_set_num_threads(THREAD);
+    double start = omp_get_wtime(); 
+    classic_vec_matmul();
+    double end = omp_get_wtime();
+    printf("Time:%1.9f\n",end-start);
 }
