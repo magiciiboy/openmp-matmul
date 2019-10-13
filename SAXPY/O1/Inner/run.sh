@@ -27,6 +27,8 @@ for THREAD in ${THREADS[*]}; do
         echo "----------------------------"
         icc -Wall -O2 rapl-read.c -o rapl-read
         ./rapl-read | grep package-0
+        ./rapl-read | grep package-0
+        ./rapl-read | grep package-0
     done
 done
 

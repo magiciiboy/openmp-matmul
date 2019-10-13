@@ -59,7 +59,7 @@ int main(){
 	printf("Running for %d threads\n",THREAD);
 	omp_set_num_threads(THREAD);
 	double start = omp_get_wtime(); 
-	classic_vec_matmul();
+	saxpy();
 	double end = omp_get_wtime();
 	printf("Time:%1.9f\n",end-start);
 }
