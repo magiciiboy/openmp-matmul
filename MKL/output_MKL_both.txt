@@ -1,1 +1,3983 @@
 rm: cannot remove ‘PAPI_*.txt’: No such file or directory
+
+
+
+THREAD=4;SIZE=5000;
+COMPILE---------------------------------------
+Using optimization MKL
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.358321 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.354873 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.351912 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+6.268E+10
+6.268E+10
+6.268E+10
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.355369 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.353643 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.344353 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.01E+08
+3.011E+08
+3.01E+08
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.353352 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.352803 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.353330 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.321E+07
+3.177E+07
+3.177E+07
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.356496 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.356219 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.478589 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+8.102E+06
+5.769E+06
+6.9E+06
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+RAPL
+----------------------------
+		package-0	: 43.104503J
+		package-0	: 42.481947J
+		package-0	: 42.672986J
+
+
+
+THREAD=4;SIZE=10000;
+COMPILE---------------------------------------
+Using optimization MKL
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.650788 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.652043 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.711397 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+6.268E+10
+6.268E+10
+6.268E+10
+5.006E+11
+5.006E+11
+5.006E+11
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.652909 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.639131 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.709726 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.01E+08
+3.011E+08
+3.01E+08
+2.375E+09
+2.375E+09
+2.375E+09
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.665179 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.662233 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.669131 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.321E+07
+3.177E+07
+3.177E+07
+2.153E+08
+2.003E+08
+2.328E+08
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.656922 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.635250 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 2.689679 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+8.102E+06
+5.769E+06
+6.9E+06
+6.008E+07
+7.647E+07
+7.33E+07
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+RAPL
+----------------------------
+		package-0	: 282.085337J
+		package-0	: 281.140699J
+		package-0	: 281.340161J
+
+
+
+THREAD=4;SIZE=40000;
+COMPILE---------------------------------------
+Using optimization MKL
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 161.846013 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 221.867965 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 176.643074 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+6.268E+10
+6.268E+10
+6.268E+10
+5.006E+11
+5.006E+11
+5.006E+11
+3.204E+13
+3.204E+13
+3.204E+13
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 161.118052 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 208.231877 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 162.428147 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.01E+08
+3.011E+08
+3.01E+08
+2.375E+09
+2.375E+09
+2.375E+09
+1.511E+11
+1.511E+11
+1.511E+11
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 243.717459 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 224.990946 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 185.273281 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.321E+07
+3.177E+07
+3.177E+07
+2.153E+08
+2.003E+08
+2.328E+08
+1.207E+10
+9.149E+09
+8.012E+09
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 167.587225 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 221.511437 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 180.346142 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+8.102E+06
+5.769E+06
+6.9E+06
+6.008E+07
+7.647E+07
+7.33E+07
+3.896E+09
+5.651E+09
+4.439E+09
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+RAPL
+----------------------------
+		package-0	: 16576.401473J
+		package-0	: 18718.051508J
+		package-0	: 16611.379349J
+
+
+
+THREAD=24;SIZE=5000;
+COMPILE---------------------------------------
+Using optimization MKL
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.100641 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.158162 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.157830 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+6.268E+10
+6.268E+10
+6.268E+10
+5.006E+11
+5.006E+11
+5.006E+11
+3.204E+13
+3.204E+13
+3.204E+13
+1.048E+10
+1.048E+10
+1.048E+10
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.156956 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.100980 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.098206 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.01E+08
+3.011E+08
+3.01E+08
+2.375E+09
+2.375E+09
+2.375E+09
+1.511E+11
+1.511E+11
+1.511E+11
+5.296E+07
+5.291E+07
+5.292E+07
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.095829 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.157449 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.097849 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.321E+07
+3.177E+07
+3.177E+07
+2.153E+08
+2.003E+08
+2.328E+08
+1.207E+10
+9.149E+09
+8.012E+09
+3.424E+06
+3.491E+06
+2.945E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.098575 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.096134 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.098561 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+        5001        5002        5003        5004        5005        5006
+       10001       10002       10003       10004       10005       10006
+       15001       15002       15003       15004       15005       15006
+       20001       20002       20003       20004       20005       20006
+       25001       25002       25003       25004       25005       25006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+       -5001       -5002       -5003       -5004       -5005       -5006
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -15001      -15002      -15003      -15004      -15005      -15006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -25001      -25002      -25003      -25004      -25005      -25006
+
+ Top left corner of matrix C: 
+ -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14 -2.0833E+14
+ -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14 -5.2077E+14
+ -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14 -8.3321E+14
+ -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15 -1.1456E+15
+ -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15 -1.4581E+15
+ -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15 -1.7705E+15
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+8.102E+06
+5.769E+06
+6.9E+06
+6.008E+07
+7.647E+07
+7.33E+07
+3.896E+09
+5.651E+09
+4.439E+09
+8.391E+05
+1.063E+06
+1.014E+06
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+RAPL
+----------------------------
+		package-0	: 35.185700J
+		package-0	: 24.827757J
+		package-0	: 24.647703J
+
+
+
+THREAD=24;SIZE=10000;
+COMPILE---------------------------------------
+Using optimization MKL
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.663631 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.722370 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.656795 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+6.268E+10
+6.268E+10
+6.268E+10
+5.006E+11
+5.006E+11
+5.006E+11
+3.204E+13
+3.204E+13
+3.204E+13
+1.048E+10
+1.048E+10
+1.048E+10
+8.351E+10
+8.351E+10
+8.351E+10
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.657264 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.661208 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.657360 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.01E+08
+3.011E+08
+3.01E+08
+2.375E+09
+2.375E+09
+2.375E+09
+1.511E+11
+1.511E+11
+1.511E+11
+5.296E+07
+5.291E+07
+5.292E+07
+4.066E+08
+4.066E+08
+4.066E+08
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.715441 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.790202 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.723758 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.321E+07
+3.177E+07
+3.177E+07
+2.153E+08
+2.003E+08
+2.328E+08
+1.207E+10
+9.149E+09
+8.012E+09
+3.424E+06
+3.491E+06
+2.945E+06
+4.002E+07
+4.178E+07
+3.783E+07
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.655274 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.747437 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 0.759529 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       10001       10002       10003       10004       10005       10006
+       20001       20002       20003       20004       20005       20006
+       30001       30002       30003       30004       30005       30006
+       40001       40002       40003       40004       40005       40006
+       50001       50002       50003       50004       50005       50006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -10001      -10002      -10003      -10004      -10005      -10006
+      -20001      -20002      -20003      -20004      -20005      -20006
+      -30001      -30002      -30003      -30004      -30005      -30006
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -50001      -50002      -50003      -50004      -50005      -50006
+
+ Top left corner of matrix C: 
+ -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15 -3.3333E+15
+ -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15 -8.3328E+15
+ -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16 -1.3332E+16
+ -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16 -1.8332E+16
+ -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16 -2.3331E+16
+ -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16 -2.8331E+16
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+8.102E+06
+5.769E+06
+6.9E+06
+6.008E+07
+7.647E+07
+7.33E+07
+3.896E+09
+5.651E+09
+4.439E+09
+8.391E+05
+1.063E+06
+1.014E+06
+8.581E+06
+8.509E+06
+8.434E+06
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+RAPL
+----------------------------
+		package-0	: 173.812360J
+		package-0	: 142.164004J
+		package-0	: 140.931646J
+
+
+
+THREAD=24;SIZE=40000;
+COMPILE---------------------------------------
+Using optimization MKL
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 36.660799 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 36.831989 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 38.138701 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+6.268E+10
+6.268E+10
+6.268E+10
+5.006E+11
+5.006E+11
+5.006E+11
+3.204E+13
+3.204E+13
+3.204E+13
+1.048E+10
+1.048E+10
+1.048E+10
+8.351E+10
+8.351E+10
+8.351E+10
+5.341E+12
+5.341E+12
+5.341E+12
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 37.597596 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 38.069280 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 39.263320 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.01E+08
+3.011E+08
+3.01E+08
+2.375E+09
+2.375E+09
+2.375E+09
+1.511E+11
+1.511E+11
+1.511E+11
+5.296E+07
+5.291E+07
+5.292E+07
+4.066E+08
+4.066E+08
+4.066E+08
+2.543E+10
+2.543E+10
+2.542E+10
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 43.522375 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 40.180366 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 39.845429 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+3.321E+07
+3.177E+07
+3.177E+07
+2.153E+08
+2.003E+08
+2.328E+08
+1.207E+10
+9.149E+09
+8.012E+09
+3.424E+06
+3.491E+06
+2.945E+06
+4.002E+07
+4.178E+07
+3.783E+07
+2.068E+09
+2.408E+09
+2.209E+09
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 38.661036 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 38.644378 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ Intel(R) MKL function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are double precision scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(40000x40000) and matrix B(40000x40000)
+
+ Allocating memory for matrices aligned on 64-byte boundary for better 
+ performance 
+
+ Intializing matrix data 
+
+ Computing matrix product using Intel(R) MKL dgemm function via CBLAS interface 
+
+Time taken = 40.318155 seconds
+
+ Computations completed.
+
+ Top left corner of matrix A: 
+           1           2           3           4           5           6
+       40001       40002       40003       40004       40005       40006
+       80001       80002       80003       80004       80005       80006
+      120001      120002      120003      120004      120005      120006
+      160001      160002      160003      160004      160005      160006
+      200001      200002      200003      200004      200005      200006
+
+ Top left corner of matrix B: 
+          -1          -2          -3          -4          -5          -6
+      -40001      -40002      -40003      -40004      -40005      -40006
+      -80001      -80002      -80003      -80004      -80005      -80006
+     -120001     -120002     -120003     -120004     -120005     -120006
+     -160001     -160002     -160003     -160004     -160005     -160006
+     -200001     -200002     -200003     -200004     -200005     -200006
+
+ Top left corner of matrix C: 
+ -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17 -8.5333E+17
+ -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18 -2.1333E+18
+ -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18 -3.4133E+18
+ -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18 -4.6932E+18
+ -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18 -5.9732E+18
+ -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18 -7.2532E+18
+
+ Deallocating memory 
+
+ Example completed. 
+
+Summary
+8.102E+06
+5.769E+06
+6.9E+06
+6.008E+07
+7.647E+07
+7.33E+07
+3.896E+09
+5.651E+09
+4.439E+09
+8.391E+05
+1.063E+06
+1.014E+06
+8.581E+06
+8.509E+06
+8.434E+06
+4.794E+08
+4.699E+08
+4.823E+08
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+RAPL
+----------------------------
+slurmstepd: error: *** JOB 4493688 ON c488-014 CANCELLED AT 2019-10-13T19:06:10 DUE TO TIME LIMIT ***
