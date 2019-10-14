@@ -2,11 +2,10 @@
 module load papi
 module load tau
 
-export TAU_MAKEFILE=$TAU/Makefile.tau-intelomp-icpc-papi-ompt-pdt-openmp
-export TAU_OPTIONS='-optVerbose'
 export MKL_DYNAMIC=FALSE
 
-THREADS=(4 24 48 96)
+# THREADS=(4 24 48 96)
+THREADS=(24 48 96)
 NSIZES=(5000 10000 40000)
 
 # Remove all previous PAPI file
