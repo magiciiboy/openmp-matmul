@@ -39,7 +39,6 @@ int main(int argc, char*  argv[])
 
 	#pragma omp parallel for
 	for (k = 0; k < MATRIX_SIZE; k += BLOCK_SIZE) {
-		#pragma omp parallel for
 		for (j = 0; j < MATRIX_SIZE; j += BLOCK_SIZE) {
 			for (i = 0; i < MATRIX_SIZE; ++i) {
 				for (jj = j; jj < min(j + BLOCK_SIZE, MATRIX_SIZE); ++jj){
