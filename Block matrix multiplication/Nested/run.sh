@@ -19,7 +19,7 @@ for THREAD in ${THREADS[*]}; do
             printf "\n\n\n"
             echo "THREAD=$THREAD;SIZE=$S;BLOCK_SIZE=$BLOCK_SIZE"
             echo "CONFIG----------"
-            printf "#define MATRIX_SIZE $S\n#define THREAD $THREAD\n#define BLOCK_SIZE $BLOCK_SIZE" > size_both_loops.h
+            printf "#define MATRIX_SIZE $S\n#define THREAD $THREAD\n#define BLOCK_SIZE $BLOCK_SIZE" > config.h
             echo "COMPILE---------------------------------------"
             echo "Using optimization O1"
             tau_cc.sh -O0 block_mm.c -o matmul -qopenmp > compile.out
