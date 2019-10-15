@@ -22,7 +22,7 @@ for THREAD in ${THREADS[*]}; do
             printf "#define MATRIX_SIZE $S\n#define THREAD $THREAD\n#define BLOCK_SIZE $BLOCK_SIZE" > config.h
             echo "COMPILE---------------------------------------"
             echo "Running for O0"
-            tau_cc.sh -O0 block_mm.c -o matmul -qopenmp > compile.out
+            tau_cc.sh -O0 block_mm.c -o matmul -qopenmp
             # tau_cc.sh -O1 matVecMul_both_simple.c -o matmul -qopenmp > compile.out
             echo "PAPI--------------------"
             sh ./papi_event.sh
