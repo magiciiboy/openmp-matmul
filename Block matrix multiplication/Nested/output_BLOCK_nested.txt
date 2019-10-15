@@ -1,0 +1,46 @@
+rm: cannot remove ‘PAPI_*.txt’: No such file or directory
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=32
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+BLOCK:32
+Threads:4
+Time:147.705658913
+
+Summary
+BLOCK:32
+Threads:4
+Time:144.093688011
+
+Summary
+BLOCK:32
+Threads:4
+Time:101.071491003
+
+Summary
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+BLOCK:32
+Threads:4
+Time:127.960920095
+
+Summary
