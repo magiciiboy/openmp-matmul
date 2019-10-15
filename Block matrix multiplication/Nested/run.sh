@@ -35,5 +35,6 @@ for THREAD in ${THREADS[*]}; do
             ./rapl-read | grep package-0
             ./rapl-read | grep package-0
             ./rapl-read | grep package-0
+        done
     done
 done
