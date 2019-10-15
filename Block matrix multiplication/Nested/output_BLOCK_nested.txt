@@ -1,8 +1,7 @@
-rm: cannot remove ‘PAPI_*.txt’: No such file or directory
 
 
 
-THREAD=4;SIZE=1024;BLOCK_SIZE=32
+THREAD=4;SIZE=1024;BLOCK_SIZE=64
 CONFIG----------
 COMPILE---------------------------------------
 Running for O0
@@ -15,19 +14,19 @@ Evaluation Begin
 Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
-BLOCK:32
+BLOCK:64
 Threads:4
-Time:147.705658913
+Time:147.776148081
 
 Summary
-BLOCK:32
+BLOCK:64
 Threads:4
-Time:144.093688011
+Time:106.937909842
 
 Summary
-BLOCK:32
+BLOCK:64
 Threads:4
-Time:101.071491003
+Time:163.653990984
 
 Summary
 
@@ -39,8 +38,264 @@ Summary
 Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
-BLOCK:32
+BLOCK:64
 Threads:4
-Time:127.960920095
+Time:143.904999971
 
 Summary
+BLOCK:64
+Threads:4
+Time:142.449573994
+
+Summary
+BLOCK:64
+Threads:4
+Time:132.413285971
+
+Summary
+4.164E+08
+1.787E+08
+2.623E+08
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+BLOCK:64
+Threads:4
+Time:139.950423956
+
+Summary
+BLOCK:64
+Threads:4
+Time:145.017158985
+
+Summary
+BLOCK:64
+Threads:4
+Time:91.076802969
+
+Summary
+7.673E+08
+2.62E+08
+2.083E+08
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+BLOCK:64
+Threads:4
+Time:161.583078146
+
+Summary
+BLOCK:64
+Threads:4
+Time:70.082414865
+
+Summary
+BLOCK:64
+Threads:4
+Time:156.558058977
+
+Summary
+1.918E+08
+1.672E+08
+2.21E+08
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+BLOCK:64
+Threads:4
+Time:95.881220102
+
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         945    2.21E+08           1           1  221012910 .TAU application
+100.0   2.205E+08    2.21E+08           1      100001  221011965 int main(int, char **) C 
+  0.2   4.783E+05   4.783E+05      100001           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   7.328E+05    3.56E+08           1       93534  356037457 .TAU application
+ 99.8   3.553E+08   3.553E+08       93534           0       3799 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    3.27E+05   5.291E+08           1       93982  529108926 .TAU application
+ 99.9   5.288E+08   5.288E+08       93982           0       5626 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 3:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   2.094E+05   5.865E+08           1       94324  586527669 .TAU application
+100.0   5.863E+08   5.863E+08       94324           0       6216 int min(int, int) C [THROTTLED]
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    1.27E+06   1.693E+09           4      281841  423171740 .TAU application
+ 86.9   1.471E+09   1.471E+09      381841           0       3852 int min(int, int) C [THROTTLED]
+ 13.1   2.205E+08    2.21E+08           1      100001  221011965 int main(int, char **) C 
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   3.175E+05   4.232E+08           1     70460.2  423171740 .TAU application
+ 86.9   3.677E+08   3.677E+08     95460.2           0       3852 int min(int, int) C [THROTTLED]
+ 13.1   5.513E+07   5.525E+07        0.25     25000.2  221011965 int main(int, char **) C 
+RAPL
+----------------------------
+		package-0	: 4323.558695J
+		package-0	: 4007.298091J
+		package-0	: 3751.521463J
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=128
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+BLOCK:128
+Threads:4
+Time:103.289757967
+
+Summary
+BLOCK:128
+Threads:4
+Time:162.867708921
+
+Summary
+BLOCK:128
+Threads:4
+Time:134.885172129
+
+Summary
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+BLOCK:128
+Threads:4
+Time:121.261557102
+
+Summary
+BLOCK:128
+Threads:4
+Time:1176.635798931
+
+Summary
+BLOCK:128
+Threads:4
+Time:2761.257405996
+
+Summary
+4.164E+08
+1.787E+08
+2.623E+08
+3.304E+08
+1.829E+09
+1.921E+09
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+BLOCK:128
+Threads:4
+Time:80.405607939
+
+Summary
+BLOCK:128
+Threads:4
+Time:137.152407885
+
+Summary
+BLOCK:128
+Threads:4
+Time:101.315629005
+
+Summary
+7.673E+08
+2.62E+08
+2.083E+08
+1.814E+08
+2.676E+08
+3.188E+08
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+BLOCK:128
+Threads:4
+Time:112.667684078
+
+Summary
+BLOCK:128
+Threads:4
+Time:145.032927990
+
+Summary
+BLOCK:128
+Threads:4
+Time:145.602607012
+
+Summary
+1.918E+08
+1.672E+08
+2.21E+08
+1.636E+08
+1.621E+08
+3.139E+08
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+slurmstepd: error: *** JOB 4503604 ON c477-014 CANCELLED AT 2019-10-15T04:02:50 DUE TO TIME LIMIT ***

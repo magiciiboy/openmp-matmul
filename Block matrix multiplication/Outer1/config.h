@@ -1,4 +1,3 @@
-#define SIZE 40000
-#define THREAD 96
-#define OUTER_THREADS 96
-#define INNER_THREADS 1
+#define MATRIX_SIZE 1024
+#define THREAD 4
+#define BLOCK_SIZE 512

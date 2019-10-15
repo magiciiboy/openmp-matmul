@@ -1,0 +1,1181 @@
+rm: cannot remove ‘PAPI_*.txt’: No such file or directory
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=64
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 280853 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 280869 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 280879 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 280890 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 280902 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 280912 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 280925 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 280937 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 280956 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 280971 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 280980 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 281002 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_exec: line 1179: 281061 Segmentation fault      $dryrun $@
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+		package-0	: 541.729326J
+		package-0	: 180.372890J
+		package-0	: 242.548879J
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=128
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 281495 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 281517 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 281536 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 281564 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 281577 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 281645 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 281663 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 281678 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 281695 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 281715 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 281735 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 281755 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_exec: line 1179: 281819 Segmentation fault      $dryrun $@
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+		package-0	: 389.857278J
+		package-0	: 532.735453J
+		package-0	: 369.377900J
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=256
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 282261 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 282297 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 282328 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 282364 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 282389 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 282451 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 282484 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 282524 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 282555 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 282591 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 282635 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 282673 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_exec: line 1179: 282764 Segmentation fault      $dryrun $@
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+		package-0	: 2043.503253J
+		package-0	: 896.205897J
+		package-0	: 849.732932J
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=512
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 283282 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 283383 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 283476 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 283645 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 283706 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 283766 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 283826 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 283911 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 283976 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 284049 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 284197 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 284347 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_exec: line 1179: 284486 Segmentation fault      $dryrun $@
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+		package-0	: 1059.729098J
+		package-0	: 2687.893327J
+		package-0	: 2274.035988J
+
+
+
+THREAD=4;SIZE=2048;BLOCK_SIZE=64
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 285140 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 285155 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 285177 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 285196 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 285214 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 285226 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 285252 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 285265 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 285332 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 285351 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 285373 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 285391 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_exec: line 1179: 285461 Segmentation fault      $dryrun $@
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+		package-0	: 371.750697J
+		package-0	: 432.003593J
+		package-0	: 704.344999J
+
+
+
+THREAD=4;SIZE=2048;BLOCK_SIZE=128
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 285908 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 285926 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 285963 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 285997 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 286025 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 286043 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 286077 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 286098 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 286141 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 286173 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 286206 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 286242 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_exec: line 1179: 286323 Segmentation fault      $dryrun $@
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+		package-0	: 728.202909J
+		package-0	: 556.373392J
+		package-0	: 635.493673J
+
+
+
+THREAD=4;SIZE=2048;BLOCK_SIZE=256
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 286780 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 286865 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 286934 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 286972 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 287048 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 287099 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 287225 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 287297 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 287366 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 287412 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 287467 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 287573 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_exec: line 1179: 287741 Segmentation fault      $dryrun $@
+---------------------------
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Reading Profile files in profile.*
+RAPL
+----------------------------
+		package-0	: 4425.299218J
+		package-0	: 2100.268610J
+		package-0	: 12125.406886J
+
+
+
+THREAD=4;SIZE=2048;BLOCK_SIZE=512
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+./papi_event.sh: line 12: 288519 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 289145 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 12: 289239 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+./papi_event.sh: line 28: 289470 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 289579 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 28: 289702 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+./papi_event.sh: line 45: 289832 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 290319 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 45: 290391 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+./papi_event.sh: line 62: 290451 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+./papi_event.sh: line 62: 290542 Segmentation fault      ./matmul
+Error: Could not open profile.0.0.0: No such file or directory
+profile.ftab: No such file or directory
+Summary
+slurmstepd: error: *** JOB 4503602 ON c506-071 CANCELLED AT 2019-10-15T04:01:21 DUE TO TIME LIMIT ***
