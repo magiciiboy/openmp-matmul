@@ -1,1 +1,0 @@
-sbatch -p skx-normal -N 1 -n 48 -t 120 -o ./output_BLOCK_nested.txt ./run.sh
