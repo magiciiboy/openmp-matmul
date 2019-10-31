@@ -5,7 +5,8 @@ module load tau
 export TAU_MAKEFILE=$TAU/Makefile.tau-intelomp-icpc-papi-ompt-pdt-openmp
 export TAU_OPTIONS='-optVerbose'
 
-THREADS=(4 24 48 96)
+# THREADS=(4 24 48 96)
+THREADS=(48 96)
 NSIZES=(1024 2048)
 # BLOCK_SIZES=(32 64 128 256 512)
 BLOCK_SIZES=(64 128 256 512)
