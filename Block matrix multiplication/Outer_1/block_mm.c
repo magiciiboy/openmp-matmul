@@ -37,9 +37,8 @@ int main(int argc, char*  argv[])
 	double start = omp_get_wtime();	
 	// Do block matrix multiplication
 
-	#pragma omp parallel for
+	#pragma omp parallel for private(j, i, jj, kk)
 	for (k = 0; k < MATRIX_SIZE; k += BLOCK_SIZE) {
-		#pragma omp parallel for private(i, jj, kk)
 		for (j = 0; j < MATRIX_SIZE; j += BLOCK_SIZE) {
 			for (i = 0; i < MATRIX_SIZE; ++i) {
 				for (jj = j; jj < min(j + BLOCK_SIZE, MATRIX_SIZE); ++jj){
