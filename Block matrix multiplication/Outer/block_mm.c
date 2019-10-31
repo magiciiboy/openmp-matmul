@@ -6,7 +6,7 @@
 #include <omp.h>
 #include "config.h"
 
-double A[MATRIX_SIZE][MATRIX_SIZE],
+int A[MATRIX_SIZE][MATRIX_SIZE],
 B[MATRIX_SIZE][MATRIX_SIZE],
 C[MATRIX_SIZE][MATRIX_SIZE];
 
