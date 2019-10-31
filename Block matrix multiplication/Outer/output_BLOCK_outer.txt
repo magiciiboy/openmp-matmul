@@ -1,7 +1,7 @@
 
 
 
-THREAD=4;SIZE=1024;BLOCK_SIZE=64
+THREAD=48;SIZE=1024;BLOCK_SIZE=64
 CONFIG----------
 COMPILE---------------------------------------
 Running for O0
@@ -40,18 +40,18 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 BLOCK:64
-Threads:4
-Time:15.416025877
+Threads:48
+Time:4.687555075
 
 Summary
 BLOCK:64
-Threads:4
-Time:16.099972963
+Threads:48
+Time:5.179394960
 
 Summary
 BLOCK:64
-Threads:4
-Time:14.824441910
+Threads:48
+Time:5.536615849
 
 Summary
 
@@ -64,23 +64,23 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 BLOCK:64
-Threads:4
-Time:1471.768625975
+Threads:48
+Time:392.075762033
 
 Summary
 BLOCK:64
-Threads:4
-Time:1509.690099001
+Threads:48
+Time:408.533745050
 
 Summary
 BLOCK:64
-Threads:4
-Time:1491.483577967
+Threads:48
+Time:419.905674934
 
 Summary
-1.311E+10
-1.322E+10
-1.312E+10
+3.654E+09
+3.461E+09
+3.487E+09
 
 ---------------------------------------------------------------------------------------
 
@@ -88,23 +88,23 @@ Gathering L2 Cache Behavior
 
 Evaluating code for: PAPI_L2_TCM
 BLOCK:64
-Threads:4
-Time:14.310969114
+Threads:48
+Time:4.308141947
 
 Summary
 BLOCK:64
-Threads:4
-Time:8.740416050
+Threads:48
+Time:4.348515987
 
 Summary
 BLOCK:64
-Threads:4
-Time:14.252645016
+Threads:48
+Time:4.484697104
 
 Summary
-2.592E+06
-4.066E+06
-3.001E+06
+2.559E+06
+9.057E+06
+2.41E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -112,23 +112,23 @@ Gathering L3 Cache Behavior
 
 Evaluating code for: PAPI_L3_TCM
 BLOCK:64
-Threads:4
-Time:14.616133213
+Threads:48
+Time:4.399290085
 
 Summary
 BLOCK:64
-Threads:4
-Time:14.457044840
+Threads:48
+Time:4.284125090
 
 Summary
 BLOCK:64
-Threads:4
-Time:15.016473055
+Threads:48
+Time:4.527256966
 
 Summary
-1.974E+06
-2.02E+06
-1.895E+06
+1.257E+06
+2.266E+06
+1.256E+06
 
 ---------------------------------------------------------------------------------------
 
@@ -137,8 +137,8 @@ Evaluation Complete
 -------------------------------
 SUMMARY-----------------------------------------
 BLOCK:64
-Threads:4
-Time:10.288893938
+Threads:48
+Time:4.626632929
 
 ---------------------------
 Reading Profile files in profile.*
@@ -148,60 +148,156 @@ NODE 0;CONTEXT 0;THREAD 0:
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0         691   1.895E+06           1           1    1895352 .TAU application
-100.0   1.393E+06   1.895E+06           1      100001    1894661 int main(int, char **) C 
- 26.4   5.012E+05   5.012E+05      100001           0          5 int min(int, int) C [THROTTLED]
+100.0         691   1.256E+06           1           1    1256111 .TAU application
+ 99.9    9.71E+05   1.255E+06           1       97870    1255420 int main(int, char **) C 
+ 22.6   2.844E+05   2.844E+05       97870           0          3 int min(int, int) C [THROTTLED]
 
 NODE 0;CONTEXT 0;THREAD 1:
 ---------------------------------------------------------------------------------------
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0   5.375E+05   1.223E+06           1       95061    1222735 .TAU application
- 56.0   6.852E+05   6.852E+05       95061           0          7 int min(int, int) C [THROTTLED]
+100.0   1.197E+06   1.638E+06           1       96877    1638221 .TAU application
+ 26.9   4.409E+05   4.409E+05       96877           0          5 int min(int, int) C [THROTTLED]
 
 NODE 0;CONTEXT 0;THREAD 2:
 ---------------------------------------------------------------------------------------
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0   4.903E+05   1.164E+06           1       96161    1164438 .TAU application
- 57.9   6.741E+05   6.741E+05       96161           0          7 int min(int, int) C [THROTTLED]
+100.0   7.838E+05    1.27E+06           1      100001    1269895 .TAU application
+ 38.3   4.861E+05   4.861E+05      100001           0          5 int min(int, int) C [THROTTLED]
 
 NODE 0;CONTEXT 0;THREAD 3:
 ---------------------------------------------------------------------------------------
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0   1.499E+05   9.525E+05           1       95882     952543 .TAU application
- 84.3   8.026E+05   8.026E+05       95882           0          8 int min(int, int) C [THROTTLED]
+100.0   4.623E+05   1.148E+06           1       99983    1147562 .TAU application
+ 59.7   6.852E+05   6.852E+05       99983           0          7 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 4:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.553E+05   1.034E+06           1       97915    1033648 .TAU application
+ 46.3   4.783E+05   4.783E+05       97915           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 5:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.283E+05   9.898E+05           1       96591     989816 .TAU application
+ 46.6   4.615E+05   4.615E+05       96591           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 6:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.119E+05   5.181E+06           1       95694    5180709 .TAU application
+ 90.1   4.669E+06   4.669E+06       95694           0         49 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 7:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.376E+05   9.964E+05           1       98914     996373 .TAU application
+ 46.0   4.588E+05   4.588E+05       98914           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 8:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   7.503E+05   1.255E+06           1       96169    1255451 .TAU application
+ 40.2   5.051E+05   5.051E+05       96169           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 9:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    8.38E+05   1.351E+06           1       98431    1351236 .TAU application
+ 38.0   5.133E+05   5.133E+05       98431           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 10:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   8.132E+05   1.366E+06           1       95551    1365698 .TAU application
+ 40.5   5.525E+05   5.525E+05       95551           0          6 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 11:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.902E+05   1.207E+06           1       98603    1207110 .TAU application
+ 42.8   5.169E+05   5.169E+05       98603           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 12:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.181E+05    1.72E+06           1       98652    1719851 .TAU application
+ 75.7   1.302E+06   1.302E+06       98652           0         13 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 13:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.488E+05    1.04E+06           1       97005    1039816 .TAU application
+ 47.2    4.91E+05    4.91E+05       97005           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 14:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   8.241E+05   1.352E+06           1       98482    1352322 .TAU application
+ 39.1   5.282E+05   5.282E+05       98482           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 15:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.396E+05   1.145E+06           1       95891    1144716 .TAU application
+ 44.1   5.051E+05   5.051E+05       95891           0          5 int min(int, int) C [THROTTLED]
 
 FUNCTION SUMMARY (total):
 ---------------------------------------------------------------------------------------
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0   1.178E+06   5.235E+06           4      287105    1308767 .TAU application
- 50.9   2.663E+06   2.663E+06      387105           0          7 int min(int, int) C [THROTTLED]
- 36.2   1.393E+06   1.895E+06           1      100001    1894661 int main(int, char **) C 
+100.0    1.01E+07   2.395E+07          16 1.46476E+06    1496783 .TAU application
+ 53.8   1.288E+07   1.288E+07 1.56263E+06           0          8 int min(int, int) C [THROTTLED]
+  5.2    9.71E+05   1.255E+06           1       97870    1255420 int main(int, char **) C 
 
 FUNCTION SUMMARY (mean):
 ---------------------------------------------------------------------------------------
 %Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
            counts total counts                            
 ---------------------------------------------------------------------------------------
-100.0   2.946E+05   1.309E+06           1     71776.2    1308767 .TAU application
- 50.9   6.658E+05   6.658E+05     96776.2           0          7 int min(int, int) C [THROTTLED]
- 36.2   3.484E+05   4.737E+05        0.25     25000.2    1894661 int main(int, char **) C 
+100.0   6.312E+05   1.497E+06           1     91547.5    1496783 .TAU application
+ 53.8   8.049E+05   8.049E+05     97664.3           0          8 int min(int, int) C [THROTTLED]
+  5.2   6.069E+04   7.846E+04      0.0625     6116.88    1255420 int main(int, char **) C 
 RAPL
 ----------------------------
-		package-0	: 1121.981136J
-		package-0	: 1083.919223J
-		package-0	: 1081.761086J
+		package-0	: 615.069043J
+		package-0	: 624.529835J
+		package-0	: 597.139951J
 
 
 
-THREAD=4;SIZE=1024;BLOCK_SIZE=128
+THREAD=48;SIZE=1024;BLOCK_SIZE=128
 CONFIG----------
 COMPILE---------------------------------------
 Running for O0
@@ -240,18 +336,18 @@ Gathering General Metrics
 
 Evaluating code for: PAPI_SP_OPS
 BLOCK:128
-Threads:4
-Time:14.553653002
+Threads:48
+Time:8.366481066
 
 Summary
 BLOCK:128
-Threads:4
-Time:14.324473143
+Threads:48
+Time:8.344966173
 
 Summary
 BLOCK:128
-Threads:4
-Time:14.556603909
+Threads:48
+Time:8.344024897
 
 Summary
 
@@ -267,8 +363,642 @@ Gathering L1 Cache Behavior
 
 Evaluating code for: PAPI_L1_TCM
 BLOCK:128
-Threads:4
-Time:1455.693352938
+Threads:48
+Time:787.143235922
 
 Summary
-slurmstepd: error: *** JOB 4610039 ON c501-042 CANCELLED AT 2019-10-31T02:08:31 DUE TO TIME LIMIT ***
+BLOCK:128
+Threads:48
+Time:765.409466982
+
+Summary
+BLOCK:128
+Threads:48
+Time:771.680280209
+
+Summary
+3.654E+09
+3.461E+09
+3.487E+09
+6.845E+09
+7.208E+09
+6.779E+09
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+BLOCK:128
+Threads:48
+Time:7.758877993
+
+Summary
+BLOCK:128
+Threads:48
+Time:8.149034023
+
+Summary
+BLOCK:128
+Threads:48
+Time:8.087113142
+
+Summary
+2.559E+06
+9.057E+06
+2.41E+06
+6.659E+07
+4.751E+06
+3.825E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+BLOCK:128
+Threads:48
+Time:8.702950954
+
+Summary
+BLOCK:128
+Threads:48
+Time:8.022294998
+
+Summary
+BLOCK:128
+Threads:48
+Time:7.909120083
+
+Summary
+1.257E+06
+2.266E+06
+1.256E+06
+4.62E+06
+1.659E+06
+1.91E+06
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+BLOCK:128
+Threads:48
+Time:8.161901951
+
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         702    1.91E+06           1           1    1909637 .TAU application
+100.0     1.6E+06   1.909E+06           1       93782    1908935 int main(int, char **) C 
+ 16.2   3.092E+05   3.092E+05       93782           0          3 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.534E+05   9.734E+05           1       96666     973357 .TAU application
+ 32.9     3.2E+05     3.2E+05       96666           0          3 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.116E+05   1.022E+06           1       97717    1021583 .TAU application
+ 40.1     4.1E+05     4.1E+05       97717           0          4 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 3:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.049E+05   9.574E+05           1       96582     957395 .TAU application
+ 57.7   5.525E+05   5.525E+05       96582           0          6 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 4:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   7.081E+05   1.192E+06           1       96097    1191735 .TAU application
+ 40.6   4.836E+05   4.836E+05       96097           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 5:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.678E+05   1.183E+06           1       96503    1183424 .TAU application
+ 43.6   5.157E+05   5.157E+05       96503           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 6:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.096E+05   6.636E+05           1       99471     663609 .TAU application
+ 38.3    2.54E+05    2.54E+05       99471           0          3 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 7:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   2.114E+05   4.929E+05           1      100001     492906 .TAU application
+ 57.1   2.815E+05   2.815E+05      100001           0          3 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 8:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   7.503E+05   1.255E+06           1       96169    1255451 .TAU application
+ 40.2   5.051E+05   5.051E+05       96169           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 9:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    8.38E+05   1.351E+06           1       98431    1351236 .TAU application
+ 38.0   5.133E+05   5.133E+05       98431           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 10:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   8.132E+05   1.366E+06           1       95551    1365698 .TAU application
+ 40.5   5.525E+05   5.525E+05       95551           0          6 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 11:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.902E+05   1.207E+06           1       98603    1207110 .TAU application
+ 42.8   5.169E+05   5.169E+05       98603           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 12:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.181E+05    1.72E+06           1       98652    1719851 .TAU application
+ 75.7   1.302E+06   1.302E+06       98652           0         13 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 13:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.488E+05    1.04E+06           1       97005    1039816 .TAU application
+ 47.2    4.91E+05    4.91E+05       97005           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 14:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   8.241E+05   1.352E+06           1       98482    1352322 .TAU application
+ 39.1   5.282E+05   5.282E+05       98482           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 15:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.396E+05   1.145E+06           1       95891    1144716 .TAU application
+ 44.1   5.051E+05   5.051E+05       95891           0          5 int min(int, int) C [THROTTLED]
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    9.19E+06   1.883E+07          16 1.46182E+06    1176865 .TAU application
+ 42.7    8.04E+06    8.04E+06  1.5556E+06           0          5 int min(int, int) C [THROTTLED]
+ 10.1     1.6E+06   1.909E+06           1       93782    1908935 int main(int, char **) C 
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.744E+05   1.177E+06           1     91363.9    1176865 .TAU application
+ 42.7   5.025E+05   5.025E+05     97225.2           0          5 int min(int, int) C [THROTTLED]
+ 10.1   9.998E+04   1.193E+05      0.0625     5861.38    1908935 int main(int, char **) C 
+RAPL
+----------------------------
+		package-0	: 785.307987J
+		package-0	: 766.314810J
+		package-0	: 1208.050618J
+
+
+
+THREAD=48;SIZE=1024;BLOCK_SIZE=256
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+
+
+Debug: Parsing with PDT Parser.
+Executing> /opt/apps/intel18/pdtoolkit/3.25/x86_64/bin/cparse block_mm.c -D_OPENMP -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include
+
+
+Debug: Instrumenting with TAU
+Executing> /opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_instrumentor block_mm.pdb block_mm.c -o block_mm.inst.c -c
+
+
+Debug: Compiling (Individually) with Instrumented Code
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp -I. -c block_mm.inst.c -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -o block_mm.o
+
+
+Debug: Linking (Together) object files
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp block_mm.o -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -ltau-intelomp-icpc-papi-ompt-pdt-openmp -Wl,-rpath,/opt/apps/papi/5.6.0/lib -L/opt/apps/papi/5.6.0/lib/ -L/opt/apps/papi/5.6.0/lib64/ -lpapi -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -lbfd -liberty -lz -Wl,--export-dynamic -lrt -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -lunwind -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -ldl -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -liomp5 -ldl -lm -L/opt/apps/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/ -L/opt/apps/gcc/6.3.0/bin/../lib64 -lstdc++ -lgcc_s -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib/static-intelomp-icpc-papi-ompt-pdt-openmp -qopenmp -o matmul
+
+
+Debug: cleaning inst file
+Executing> /bin/rm -f block_mm.inst.c
+
+
+Debug: cleaning PDB file
+Executing> /bin/rm -f block_mm.pdb
+
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+BLOCK:256
+Threads:48
+Time:14.349896908
+
+Summary
+BLOCK:256
+Threads:48
+Time:15.079557180
+
+Summary
+BLOCK:256
+Threads:48
+Time:15.926613808
+
+Summary
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+BLOCK:256
+Threads:48
+Time:1562.888051987
+
+Summary
+BLOCK:256
+Threads:48
+Time:1553.648514032
+
+Summary
+BLOCK:256
+Threads:48
+Time:1572.409296989
+
+Summary
+3.654E+09
+3.461E+09
+3.487E+09
+6.845E+09
+7.208E+09
+6.779E+09
+1.274E+10
+1.282E+10
+1.362E+10
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+BLOCK:256
+Threads:48
+Time:15.848346949
+
+Summary
+BLOCK:256
+Threads:48
+Time:14.700679064
+
+Summary
+BLOCK:256
+Threads:48
+Time:9.671290874
+
+Summary
+2.559E+06
+9.057E+06
+2.41E+06
+6.659E+07
+4.751E+06
+3.825E+06
+8.087E+06
+8.064E+06
+2.267E+07
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+BLOCK:256
+Threads:48
+Time:15.765197992
+
+Summary
+BLOCK:256
+Threads:48
+Time:14.596938133
+
+Summary
+BLOCK:256
+Threads:48
+Time:14.340052128
+
+Summary
+1.257E+06
+2.266E+06
+1.256E+06
+4.62E+06
+1.659E+06
+1.91E+06
+1.216E+06
+2.659E+06
+1.682E+06
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+BLOCK:256
+Threads:48
+Time:17.666937113
+
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         787   1.682E+06           1           1    1681856 .TAU application
+100.0   1.198E+06   1.681E+06           1       94370    1681069 int main(int, char **) C 
+ 28.7    4.83E+05    4.83E+05       94370           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.555E+05   5.625E+05           1       99623     562482 .TAU application
+ 19.0    1.07E+05    1.07E+05       99623           0          1 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.284E+05   7.264E+05           1       99702     726390 .TAU application
+ 27.3    1.98E+05    1.98E+05       99702           0          2 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 3:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.838E+05    3.86E+05           1      100001     386018 .TAU application
+ 52.4   2.023E+05   2.023E+05      100001           0          2 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 4:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   7.081E+05   1.192E+06           1       96097    1191735 .TAU application
+ 40.6   4.836E+05   4.836E+05       96097           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 5:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.678E+05   1.183E+06           1       96503    1183424 .TAU application
+ 43.6   5.157E+05   5.157E+05       96503           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 6:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.096E+05   6.636E+05           1       99471     663609 .TAU application
+ 38.3    2.54E+05    2.54E+05       99471           0          3 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 7:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   2.114E+05   4.929E+05           1      100001     492906 .TAU application
+ 57.1   2.815E+05   2.815E+05      100001           0          3 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 8:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   7.503E+05   1.255E+06           1       96169    1255451 .TAU application
+ 40.2   5.051E+05   5.051E+05       96169           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 9:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    8.38E+05   1.351E+06           1       98431    1351236 .TAU application
+ 38.0   5.133E+05   5.133E+05       98431           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 10:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   8.132E+05   1.366E+06           1       95551    1365698 .TAU application
+ 40.5   5.525E+05   5.525E+05       95551           0          6 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 11:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.902E+05   1.207E+06           1       98603    1207110 .TAU application
+ 42.8   5.169E+05   5.169E+05       98603           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 12:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.181E+05    1.72E+06           1       98652    1719851 .TAU application
+ 75.7   1.302E+06   1.302E+06       98652           0         13 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 13:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   5.488E+05    1.04E+06           1       97005    1039816 .TAU application
+ 47.2    4.91E+05    4.91E+05       97005           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 14:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   8.241E+05   1.352E+06           1       98482    1352322 .TAU application
+ 39.1   5.282E+05   5.282E+05       98482           0          5 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 15:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   6.396E+05   1.145E+06           1       95891    1144716 .TAU application
+ 44.1   5.051E+05   5.051E+05       95891           0          5 int min(int, int) C [THROTTLED]
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   8.687E+06   1.732E+07          16 1.47018E+06    1082789 .TAU application
+ 42.9   7.439E+06   7.439E+06 1.56455E+06           0          5 int min(int, int) C [THROTTLED]
+  9.7   1.198E+06   1.681E+06           1       94370    1681069 int main(int, char **) C 
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    5.43E+05   1.083E+06           1     91886.4    1082789 .TAU application
+ 42.9   4.649E+05   4.649E+05     97784.5           0          5 int min(int, int) C [THROTTLED]
+  9.7   7.488E+04   1.051E+05      0.0625     5898.12    1681069 int main(int, char **) C 
+RAPL
+----------------------------
+		package-0	: 1143.235110J
+		package-0	: 2184.899802J
+		package-0	: 713.435369J
+
+
+
+THREAD=48;SIZE=1024;BLOCK_SIZE=512
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+
+
+Debug: Parsing with PDT Parser.
+Executing> /opt/apps/intel18/pdtoolkit/3.25/x86_64/bin/cparse block_mm.c -D_OPENMP -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include
+
+
+Debug: Instrumenting with TAU
+Executing> /opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_instrumentor block_mm.pdb block_mm.c -o block_mm.inst.c -c
+
+
+Debug: Compiling (Individually) with Instrumented Code
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp -I. -c block_mm.inst.c -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -o block_mm.o
+
+
+Debug: Linking (Together) object files
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp block_mm.o -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -ltau-intelomp-icpc-papi-ompt-pdt-openmp -Wl,-rpath,/opt/apps/papi/5.6.0/lib -L/opt/apps/papi/5.6.0/lib/ -L/opt/apps/papi/5.6.0/lib64/ -lpapi -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -lbfd -liberty -lz -Wl,--export-dynamic -lrt -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -lunwind -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -ldl -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -liomp5 -ldl -lm -L/opt/apps/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/ -L/opt/apps/gcc/6.3.0/bin/../lib64 -lstdc++ -lgcc_s -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib/static-intelomp-icpc-papi-ompt-pdt-openmp -qopenmp -o matmul
+
+
+Debug: cleaning inst file
+Executing> /bin/rm -f block_mm.inst.c
+
+
+Debug: cleaning PDB file
+Executing> /bin/rm -f block_mm.pdb
+
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+BLOCK:512
+Threads:48
+Time:24.615864992
+
+Summary
+BLOCK:512
+Threads:48
+Time:35.778223991
+
+Summary
+BLOCK:512
+Threads:48
+Time:39.571744919
+
+Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+BLOCK:512
+Threads:48
+Time:3045.629584074
+
+Summary
+slurmstepd: error: *** JOB 4612162 ON c505-043 CANCELLED AT 2019-10-31T16:42:13 DUE TO TIME LIMIT ***
