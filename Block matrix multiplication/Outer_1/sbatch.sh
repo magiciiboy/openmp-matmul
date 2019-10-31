@@ -1,0 +1,1 @@
+sbatch -p skx-normal -N 1 -n 48 -t 240 -o ./output_BLOCK_outer.txt ./run.sh

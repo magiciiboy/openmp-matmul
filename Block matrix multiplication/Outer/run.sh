@@ -9,7 +9,7 @@ export TAU_OPTIONS='-optVerbose'
 THREADS=(48 96)
 NSIZES=(1024 2048)
 # BLOCK_SIZES=(32 64 128 256 512)
-BLOCK_SIZES=(64 128 256 512)
+BLOCK_SIZES=(512)
 
 # Remove all previous PAPI file
 rm PAPI_*.txt

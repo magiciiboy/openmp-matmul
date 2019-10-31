@@ -1,0 +1,274 @@
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=64
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+
+
+Debug: Parsing with PDT Parser.
+Executing> /opt/apps/intel18/pdtoolkit/3.25/x86_64/bin/cparse block_mm.c -D_OPENMP -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include
+
+
+Debug: Instrumenting with TAU
+Executing> /opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_instrumentor block_mm.pdb block_mm.c -o block_mm.inst.c -c
+
+
+Debug: Compiling (Individually) with Instrumented Code
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp -I. -c block_mm.inst.c -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -o block_mm.o
+
+
+Debug: Linking (Together) object files
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp block_mm.o -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -ltau-intelomp-icpc-papi-ompt-pdt-openmp -Wl,-rpath,/opt/apps/papi/5.6.0/lib -L/opt/apps/papi/5.6.0/lib/ -L/opt/apps/papi/5.6.0/lib64/ -lpapi -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -lbfd -liberty -lz -Wl,--export-dynamic -lrt -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -lunwind -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -ldl -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -liomp5 -ldl -lm -L/opt/apps/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/ -L/opt/apps/gcc/6.3.0/bin/../lib64 -lstdc++ -lgcc_s -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib/static-intelomp-icpc-papi-ompt-pdt-openmp -qopenmp -o matmul
+
+
+Debug: cleaning inst file
+Executing> /bin/rm -f block_mm.inst.c
+
+
+Debug: cleaning PDB file
+Executing> /bin/rm -f block_mm.pdb
+
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+BLOCK:64
+Threads:4
+Time:15.753645897
+
+Summary
+BLOCK:64
+Threads:4
+Time:9.810847998
+
+Summary
+BLOCK:64
+Threads:4
+Time:9.950845957
+
+Summary
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+BLOCK:64
+Threads:4
+Time:1528.272048950
+
+Summary
+BLOCK:64
+Threads:4
+Time:1539.579257011
+
+Summary
+BLOCK:64
+Threads:4
+Time:1556.968925953
+
+Summary
+1.316E+10
+1.349E+10
+1.336E+10
+
+---------------------------------------------------------------------------------------
+
+Gathering L2 Cache Behavior
+
+Evaluating code for: PAPI_L2_TCM
+BLOCK:64
+Threads:4
+Time:14.767493963
+
+Summary
+BLOCK:64
+Threads:4
+Time:15.955877066
+
+Summary
+BLOCK:64
+Threads:4
+Time:15.218786955
+
+Summary
+3.695E+06
+3.612E+06
+3.729E+06
+
+---------------------------------------------------------------------------------------
+
+Gathering L3 Cache Behavior
+
+Evaluating code for: PAPI_L3_TCM
+BLOCK:64
+Threads:4
+Time:15.254770994
+
+Summary
+BLOCK:64
+Threads:4
+Time:15.452680826
+
+Summary
+BLOCK:64
+Threads:4
+Time:15.038837910
+
+Summary
+2.132E+06
+2.141E+06
+2.216E+06
+
+---------------------------------------------------------------------------------------
+
+-------------------------------
+Evaluation Complete
+-------------------------------
+SUMMARY-----------------------------------------
+BLOCK:64
+Threads:4
+Time:11.091505051
+
+---------------------------
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0         889   2.216E+06           1           1    2215578 .TAU application
+100.0   1.656E+06   2.215E+06           1      100001    2214689 int main(int, char **) C 
+ 25.2   5.583E+05   5.583E+05      100001           0          6 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0    5.91E+05   1.456E+06           1       96470    1455645 .TAU application
+ 59.4   8.647E+05   8.647E+05       96470           0          9 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   4.511E+05   1.357E+06           1       97703    1356507 .TAU application
+ 66.7   9.054E+05   9.054E+05       97703           0          9 int min(int, int) C [THROTTLED]
+
+NODE 0;CONTEXT 0;THREAD 3:
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.311E+05   8.709E+05           1       97309     870899 .TAU application
+ 84.9   7.398E+05   7.398E+05       97309           0          8 int min(int, int) C [THROTTLED]
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   1.174E+06   5.899E+06           4      291483    1474657 .TAU application
+ 52.0   3.068E+06   3.068E+06      391483           0          8 int min(int, int) C [THROTTLED]
+ 37.5   1.656E+06   2.215E+06           1      100001    2214689 int main(int, char **) C 
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time   Exclusive   Inclusive       #Call      #Subrs Count/Call Name
+           counts total counts                            
+---------------------------------------------------------------------------------------
+100.0   2.935E+05   1.475E+06           1     72870.8    1474657 .TAU application
+ 52.0    7.67E+05    7.67E+05     97870.8           0          8 int min(int, int) C [THROTTLED]
+ 37.5   4.141E+05   5.537E+05        0.25     25000.2    2214689 int main(int, char **) C 
+RAPL
+----------------------------
+		package-0	: 1143.036930J
+		package-0	: 1007.516891J
+		package-0	: 1232.277607J
+
+
+
+THREAD=4;SIZE=1024;BLOCK_SIZE=128
+CONFIG----------
+COMPILE---------------------------------------
+Running for O0
+
+
+Debug: Parsing with PDT Parser.
+Executing> /opt/apps/intel18/pdtoolkit/3.25/x86_64/bin/cparse block_mm.c -D_OPENMP -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include
+
+
+Debug: Instrumenting with TAU
+Executing> /opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/bin/tau_instrumentor block_mm.pdb block_mm.c -o block_mm.inst.c -c
+
+
+Debug: Compiling (Individually) with Instrumented Code
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp -I. -c block_mm.inst.c -DPROFILING_ON -DTAU_PAPI -I/opt/apps/papi/5.6.0/src -I/opt/apps/papi/5.6.0/include -DTAU_DOT_H_LESS_HEADERS -DTAU_DOT_H_LESS_HEADERS -DTAU_LINUX_TIMERS -DTAU_LARGEFILE -D_LARGEFILE64_SOURCE -DTAU_BFD -DHAVE_GNU_DEMANGLE -DHAVE_TR1_HASH_MAP -DTAU_SS_ALLOC_SUPPORT -DEBS_CLOCK_RES=1 -DTAU_STRSIGNAL_OK -DTAU_UNWIND -DTAU_USE_LIBUNWIND -I/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/include -DTAU_TRACK_LD_LOADER -DTAU_USE_OMPT -DTAU_USE_TLS -DTAU_PAPI_PERF_RAPL -DTAU_ELF_BFD -qopenmp -DTAU_OPENMP -DTAU_UNIFY -I/opt/apps/intel18/impi18_0/tau/2.27.2/include -o block_mm.o
+
+
+Debug: Linking (Together) object files
+Executing> /opt/intel/compilers_and_libraries_2018.2.199/linux/bin/intel64/icc -O0 -qopenmp block_mm.o -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -ltau-intelomp-icpc-papi-ompt-pdt-openmp -Wl,-rpath,/opt/apps/papi/5.6.0/lib -L/opt/apps/papi/5.6.0/lib/ -L/opt/apps/papi/5.6.0/lib64/ -lpapi -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/binutils-2.23.2/lib64 -lbfd -liberty -lz -Wl,--export-dynamic -lrt -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -lunwind -Wl,-rpath,/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/libunwind-1.3-rc1-icc/lib -ldl -Wl,-rpath=/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib -liomp5 -ldl -lm -L/opt/apps/gcc/6.3.0/lib/gcc/x86_64-pc-linux-gnu/6.3.0/ -L/opt/apps/gcc/6.3.0/bin/../lib64 -lstdc++ -lgcc_s -L/opt/apps/intel18/impi18_0/tau/2.27.2/x86_64/lib/static-intelomp-icpc-papi-ompt-pdt-openmp -qopenmp -o matmul
+
+
+Debug: cleaning inst file
+Executing> /bin/rm -f block_mm.inst.c
+
+
+Debug: cleaning PDB file
+Executing> /bin/rm -f block_mm.pdb
+
+PAPI--------------------
+
+-------------------------------
+Evaluation Begin
+-------------------------------
+
+Gathering General Metrics
+
+Evaluating code for: PAPI_SP_OPS
+BLOCK:128
+Threads:4
+Time:12.905452013
+
+Summary
+BLOCK:128
+Threads:4
+Time:20.193824053
+
+Summary
+BLOCK:128
+Threads:4
+Time:19.499688864
+
+Summary
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------
+
+Gathering L1 Cache Behavior
+
+Evaluating code for: PAPI_L1_TCM
+BLOCK:128
+Threads:4
+Time:1552.055546045
+
+Summary
+slurmstepd: error: *** JOB 4608639 ON c506-071 CANCELLED AT 2019-10-30T23:33:20 DUE TO TIME LIMIT ***
