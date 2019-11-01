@@ -1,3 +1,3 @@
-#define MATRIX_SIZE 1024
+#define MATRIX_SIZE 2048
 #define THREAD 48
 #define BLOCK_SIZE 512
